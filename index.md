@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<head link rel="icon" href="/favicon.ico" type="image/x-icon">
+<head>
 # SPAMEDGE COMPANY
 **Engineering Precision, Building the Future**
 
