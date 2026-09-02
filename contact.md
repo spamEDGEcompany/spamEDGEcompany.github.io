@@ -23,4 +23,4 @@ info.spamedgdecompany@gmail.com
 
 ## Follow Us
 - [Facebook](https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr)
-- [Instagram](https://www.instagram.com/spamedgecompanyng?igsi=dXJ4MG
+- [Instagram](https://www.instagram.com/spamedgecompanyng?igsi=dXJ4MG)
