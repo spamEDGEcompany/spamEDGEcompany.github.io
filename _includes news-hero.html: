@@ -1,0 +1,7 @@
+<section class="news-hero">
+  <div class="watermark">News</div>
+  <div class="hero-content">
+    <h1>News</h1>
+    <a href="/news" class="cta-btn">Read Our Latest News</a>
+  </div>
+</section>
