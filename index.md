@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div style="background:#1a2b4c; color:#fff; padding:64px 24px;">
-<h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">PARTNER FOR PROGRESS</h1>
+<h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Trust us for Progress</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
 <a href="/services" style="background:#c0177c; color:#fff; padding:14px 28px; text-decoration:none; font-weight:700; margin-right:12px; display:inline-block; margin-top:20px;">OUR SERVICES</a>
 <a href="/contact" style="border:2px solid #fff; color:#fff; padding:12px 26px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px;">CONTACT US</a>
