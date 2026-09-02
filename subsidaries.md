@@ -15,7 +15,7 @@ Geospatial, engineering, and digital technology services — delivering precisio
 ## SpamEDGE Foundation
 Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.
 
-## SpamEDGE Cryptocurrency
+## SpamEDGE Chain
 Focused on digital assets and blockchain-related initiatives, exploring the future of decentralized technology.
 
 ---
