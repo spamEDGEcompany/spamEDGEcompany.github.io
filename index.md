@@ -3,8 +3,7 @@ layout: default
 title: Home
 ---
 
-# SPAMEDGE COMPANY
-![SpamEDGE Company Logo](/company%20logo.jpeg)
+# <link rel="icon" href="/favicon.ico" type="image/x-icon"> SPAMEDGE COMPANY
 **Engineering Precision, Building the Future**
 
 Building solutions across geospatial technology, engineering, construction, architecture, and digital innovation.
