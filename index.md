@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div style="background:#1a2b4c; color:#fff; padding:64px 24px;">
+<div style="background-image: linear-gradient(rgba(26,43,76,0.75), rgba(26,43,76,0.75)), url('/hero.jpg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
 <a href="/services" style="background:#c0177c; color:#fff; padding:14px 28px; text-decoration:none; font-weight:700; margin-right:12px; display:inline-block; margin-top:20px;">OUR SERVICES</a>
@@ -18,7 +18,7 @@ Our expertise is built around Surveying and Geoinformatics, GIS, digital mapping
 
 At SpamEDGE, we believe that technology should make complex processes simpler, faster, more accurate, and accessible. We continuously explore innovative methods and emerging technologies to improve the way geospatial and technical services are delivered.
 
-Our commitment to precision, professionalism, innovation, integrity, and continuous improvementguides every project we undertake. We work to build lasting relationships with our clients through dependable services, effective communication, and solutions tailored to their specific requirements.
+Our commitment to precision, professionalism, innovation, integrity, and continuous improvement guides every project we undertake. We work to build lasting relationships with our clients through dependable services, effective communication, and solutions tailored to their specific requirements.
 
 As we continue to grow, our vision is to establish SpamEDGE as a trusted and forward-thinking partner in the geospatial, engineering, and technology industries, contributing to smarter infrastructure, better spatial decision-making, and meaningful technological advancement.
 
