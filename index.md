@@ -11,8 +11,18 @@ title: Home
 </div>
 
 <div style="padding:48px 24px; max-width:800px;">
-<h2 style="color:#1a2b4c;">Who We Are</h2>
-<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company is a multidisciplinary firm delivering precision-driven solutions in geospatial science, engineering, construction, architecture, and technology.</p>
+<h2 style="color:#1a2b4c;">Building Sustainable Solutions</h2>
+<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company is a multidisciplinary and technology-driven organization committed to delivering reliable, innovative, and value-driven solutions across Geospatial, Engineering, Construction, Architecture, and Technology. We combine professional expertise, modern technologies, and practical approaches to provide solutions that meet the evolving needs of our clients and support sustainable development.
+
+Our expertise is built around Surveying and Geoinformatics, GIS, digital mapping, spatial data acquisition, engineering support, construction, architectural design, and technology solutions. By bringing these areas together, we provide integrated services that help clients plan better, make informed decisions, improve efficiency, and successfully execute their projects.
+
+At SpamEDGE, we believe that technology should make complex processes simpler, faster, more accurate, and accessible. We continuously explore innovative methods and emerging technologies to improve the way geospatial and technical services are delivered.
+
+Our commitment to precision, professionalism, innovation, integrity, and continuous improvementguides every project we undertake. We work to build lasting relationships with our clients through dependable services, effective communication, and solutions tailored to their specific requirements.
+
+As we continue to grow, our vision is to establish SpamEDGE as a trusted and forward-thinking partner in the geospatial, engineering, and technology industries, contributing to smarter infrastructure, better spatial decision-making, and meaningful technological advancement.
+
+SpamEDGE Company — Making the Geospatial World Easier Through Innovation and Technology.</p>
 </div>
 
 <div style="background:#1a2b4c; color:#fff; padding:48px 24px;">
