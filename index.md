@@ -45,6 +45,6 @@ title: Home
 <ul style="font-size:16px; line-height:1.9; color:#333;">
 <li><strong>SpamEDGE Technology Limited</strong> — Geospatial, engineering & digital technology services</li>
 <li><strong>SpamEDGE Foundation</strong> — Social impact and community development</li>
-<li><strong>SpamEDGE Cryptocurrency</strong> — Digital assets and blockchain initiatives</li>
+<li><strong>SpamEDGE Chain</strong> — Digital assets and blockchain initiatives</li>
 </ul>
 </div>
