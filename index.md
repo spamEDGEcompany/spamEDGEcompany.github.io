@@ -3,58 +3,48 @@ layout: default
 title: Home
 ---
 
-# SPAMEDGE COMPANY
-**Engineering Precision, Building the Future**
+<div style="background:#1a2b4c; color:#fff; padding:64px 24px;">
+<h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">PARTNER FOR PROGRESS</h1>
+<p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
+<a href="/services" style="background:#c0177c; color:#fff; padding:14px 28px; text-decoration:none; font-weight:700; margin-right:12px; display:inline-block; margin-top:20px;">OUR SERVICES</a>
+<a href="/contact" style="border:2px solid #fff; color:#fff; padding:12px 26px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px;">CONTACT US</a>
+</div>
 
-Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.
+<div style="padding:48px 24px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Who We Are</h2>
+<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company is a multidisciplinary firm delivering precision-driven solutions in geospatial science, engineering, construction, architecture, and technology.</p>
+</div>
 
-[Our Services](/services) | [Contact Us](/contact)
+<div style="background:#1a2b4c; color:#fff; padding:48px 24px;">
+<h2>Our Expertise</h2>
+<div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
+<div><div style="font-size:36px; font-weight:800;">5</div><div>Core Divisions</div></div>
+<div><div style="font-size:36px; font-weight:800;">3</div><div>Subsidiaries</div></div>
+<div><div style="font-size:36px; font-weight:800;">100%</div><div>Commitment to Impact</div></div>
+</div>
+</div>
 
----
+<div style="padding:48px 24px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Our Services</h2>
+<ul style="font-size:16px; line-height:1.9; color:#333;">
+<li><strong>Geospatial & Surveying</strong> — Land, Engineering, Cadastral & GNSS/RTK Surveying, GIS & Mapping, Drone Photogrammetry</li>
+<li><strong>Construction & Engineering</strong> — Infrastructure Development, Site Setting-Out, Engineering Consultancy</li>
+<li><strong>Architecture & Design</strong> — Architectural Design, 3D Modelling, CAD Services</li>
+<li><strong>Technology</strong> — Digital Solutions, Geospatial Tech, Data Management</li>
+</ul>
+<a href="/services" style="color:#c0177c; font-weight:700; text-decoration:none;">See all services →</a>
+</div>
 
-## Who We Are
+<div style="background:#c0177c; color:#fff; padding:48px 24px; text-align:center;">
+<h2>Ready to Work With Us?</h2>
+<a href="/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
+</div>
 
-SpamEDGE Company is a multidisciplinary firm delivering precision-driven solutions in geospatial science, engineering, construction, architecture, and technology — committed to building a sustainable future through innovation and impact.
-
-## Our Services
-
-- **Geospatial & Surveying** — Land, Engineering, Cadastral & GNSS/RTK Surveying, GIS & Mapping, Drone Photogrammetry
-- **Construction & Engineering** — Infrastructure Development, Site Setting-Out, Engineering Consultancy
-- **Architecture & Design** — Architectural Design, 3D Modelling, CAD Services
-- **Technology** — Digital Solutions, Geospatial Tech, Data Management
-
-[See all services →](/services)
-
-## Featured Projects
-
-Explore our completed and ongoing work across surveying, engineering, and technology.
-
-[View Projects →](/projects)
-
-## Our Subsidiaries
-
-- **SpamEDGE Technology Limited** — Geospatial, engineering & digital technology services
-- **SpamEDGE Foundation** — Social impact and community development
-- **SpamEDGE Cryptocurrency** — Digital assets and blockchain initiatives
-
-[Learn more →](/subsidiaries)
-
-## Why Choose SpamEDGE?
-
-- Precision-driven, technically sound solutions
-- Multidisciplinary expertise under one roof
-- Commitment to community and sustainability
-- Reliable project delivery
-
-## Latest News
-
-Stay updated with our announcements and project milestones.
-
-[Read News →](/blog)
-
-## Ready to Work With Us?
-
-[Get in Touch](/contact)
-
----
-📧 info.spamedgdecompany@gmail.com | 📞 0915 806 8973 | 📍 Lagos, Nigeria
+<div style="padding:48px 24px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Our Subsidiaries</h2>
+<ul style="font-size:16px; line-height:1.9; color:#333;">
+<li><strong>SpamEDGE Technology Limited</strong> — Geospatial, engineering & digital technology services</li>
+<li><strong>SpamEDGE Foundation</strong> — Social impact and community development</li>
+<li><strong>SpamEDGE Cryptocurrency</strong> — Digital assets and blockchain initiatives</li>
+</ul>
+</div>
