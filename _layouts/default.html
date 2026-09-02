@@ -24,6 +24,9 @@ footer { text-align: center; padding: 24px; color: #777; font-size: 14px; }
 .dropdown-content a { padding: 12px 16px; display: block; }
 .dropdown-content a:hover { background: #2a2a4e; }
 .dropdown:hover .dropdown-content { display: block; }
+.lang-switch { display: flex; gap: 6px; }
+.lang-switch a { padding: 4px 8px; border: 1px solid #444; border-radius: 4px; font-size: 13px; }
+.lang-switch a:hover { background: #2a2a4e; }
 </style>
 </head>
 <body>
@@ -45,6 +48,10 @@ footer { text-align: center; padding: 24px; color: #777; font-size: 14px; }
 <a href="/subsidiaries">Subsidiaries</a>
 <a href="/blog">News</a>
 <a href="/contact">Contact</a>
+<div class="lang-switch">
+<a href="/">EN</a>
+<a href="/fr/">FR</a>
+</div>
 </nav>
 <main>
 {{ content }}
