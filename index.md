@@ -1,37 +1,60 @@
+---
 layout: default
 title: Home
 ---
 
-# SpamEDGE Company
+# SPAMEDGE COMPANY
+**Engineering Precision, Building the Future**
 
-**Engineering Precision, Building the Future.**
+Building solutions across geospatial technology, engineering, construction, architecture, and digital innovation.
 
-SpamEDGE Company delivers integrated solutions across geospatial science, engineering, technology, and project management — while giving back through the SpamEDGE Foundation.
-
-## What We Do
-
-### 🌍 Geospatial
-Precision surveying, GNSS positioning, mapping, and geo-informatics solutions for infrastructure and land development projects.
-
-### 🏗️ Engineering
-Technical engineering services designed for accuracy, reliability, and real-world impact.
-
-### 💻 Technology
-Modern digital solutions that support data-driven decision-making across industries.
-
-### 📋 Project Management
-End-to-end project planning and execution, ensuring quality delivery on time and on budget.
-
-### 🤝 Foundation
-Through the SpamEDGE Foundation, we invest in community outreach, education, and development initiatives.
-
-## Contact Us
-
-📧 **Email:** info.spamedgdecompany@gmail.com
-📞 **Phone:** 0915 806 8973
-📍 **Location:** Lagos, Nigeria
-
-We'd love to hear from you — reach out for partnerships, projects, or inquiries.
+[Our Services](/services) &nbsp; | &nbsp; [Contact Us](/contact)
 
 ---
-© 2026 SpamEDGE Company. All rights reserved.
+
+## Who We Are
+
+SpamEDGE Company is a multidisciplinary firm delivering precision-driven solutions in geospatial science, engineering, construction, architecture, and technology — committed to building a sustainable future through innovation and impact.
+
+## Our Services
+
+- **Geospatial & Surveying** — Land, Engineering, Cadastral & GNSS/RTK Surveying, GIS & Mapping, Drone Photogrammetry
+- **Construction & Engineering** — Infrastructure Development, Site Setting-Out, Engineering Consultancy
+- **Architecture & Design** — Architectural Design, 3D Modelling, CAD Services
+- **Technology** — Digital Solutions, Geospatial Tech, Data Management
+
+[See all services →](/services)
+
+## Featured Projects
+
+Explore our completed and ongoing work across surveying, engineering, and technology.
+
+[View Projects →](/projects)
+
+## Our Subsidiaries
+
+- **SpamEDGE Technology Limited** — Geospatial, engineering & digital technology services
+- **SpamEDGE Foundation** — Social impact and community development
+- **SpamEDGE Cryptocurrency** — Digital assets and blockchain initiatives
+
+[Learn more →](/subsidiaries)
+
+## Why Choose SpamEDGE?
+
+- Precision-driven, technically sound solutions
+- Multidisciplinary expertise under one roof
+- Commitment to community and sustainability
+- Reliable project delivery
+
+## Latest News
+
+Stay updated with our announcements and project milestones.
+
+[Read News →](/blog)
+
+## Ready to Work With Us?
+
+[Get in Touch](/contact)
+
+---
+📧 info.spamedgdecompany@gmail.com &nbsp; | &nbsp; 📞 0915 806 8973 &nbsp; | &nbsp; 📍 Lagos, Nigeria
