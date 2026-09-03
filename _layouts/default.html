@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>{{ page.title }} | SpamEDGE Company</title>
 
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -106,6 +107,7 @@ background: #1a1a2e;
 padding: 10px;
 border-radius: 6px;
 box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+z-index: 200;
 }
 
 .search-box.open {
@@ -306,58 +308,115 @@ width: 20px;
 height: 20px;
 filter: invert(1);
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+nav {
+padding: 14px 18px;
+}
+
+nav .brand {
+font-size: 16px;
+}
+
+.lang-switch {
+margin-left: 0;
+}
+
+.nav-icons {
+gap: 12px;
+}
+
+main {
+padding: 24px 18px;
+}
+
+.mobile-menu {
+width: 270px;
+}
+}
 </style>
 </head>
 
 <body>
 
+{% comment %}
+Create the equivalent URL in the other language.
+English:
+ /about.html  -> /fr/about.html
+
+French:
+ /fr/about.html -> /about.html
+{% endcomment %}
+
+{% assign current_path = page.url %}
+
+{% if page.lang == "fr" %}
+{% assign english_url = current_path | remove_first: "/fr" %}
+{% assign french_url = current_path %}
+{% else %}
+{% assign english_url = current_path %}
+{% assign french_url = "/fr" | append: current_path %}
+{% endif %}
+
+{% if english_url == "" %}
+{% assign english_url = "/" %}
+{% endif %}
+
+{% if french_url == "/fr" %}
+{% assign french_url = "/fr/" %}
+{% endif %}
+
+
+<!-- NAVIGATION -->
+
 <nav style="position:relative;">
 
-<a href="{% if page.lang == 'fr' %}/fr/{% else %}/{% endif %}"
-style="display:flex; align-items:center; gap:8px; text-decoration:none;">
+<a
+href="{% if page.lang == 'fr' %}/fr/{% else %}/{% endif %}"
+style="display:flex; align-items:center; gap:8px; text-decoration:none;"
+>
 
-<img src="/company%20logo.jpeg"
+<img
+src="/company%20logo.jpeg"
 alt="SpamEDGE Company"
-style="height:32px;">
+style="height:32px;"
+>
 
 <span class="brand">SpamEDGE Company</span>
 
 </a>
 
+
+<!-- LANGUAGE SWITCHER -->
+
 <div class="lang-switch">
 
-{% if page.lang == "fr" %}
-
-<a href="{{ page.url | remove_first: '/fr' }}"
-class="lang-en">
+<a
+href="{{ english_url }}"
+class="{% if page.lang != 'fr' %}active{% endif %}"
+>
 EN
 </a>
 
-<a href="/fr/"
-class="active">
+<a
+href="{{ french_url }}"
+class="{% if page.lang == 'fr' %}active{% endif %}"
+>
 FR
 </a>
-
-{% else %}
-
-<a href="/"
-class="active">
-EN
-</a>
-
-<a href="/fr{{ page.url }}"
-class="lang-fr">
-FR
-</a>
-
-{% endif %}
 
 </div>
 
+
+<!-- ICONS -->
+
 <div class="nav-icons">
 
-<a href="mailto:info.spamedgdecompany@gmail.com"
-title="{% if page.lang == 'fr' %}Nous écrire{% else %}Email us{% endif %}">
+<a
+href="mailto:info.spamedgdecompany@gmail.com"
+title="{% if page.lang == 'fr' %}Nous écrire{% else %}Email us{% endif %}"
+>
 
 <svg viewBox="0 0 24 24">
 <path d="M4 4h16v16H4z"/>
@@ -366,9 +425,12 @@ title="{% if page.lang == 'fr' %}Nous écrire{% else %}Email us{% endif %}">
 
 </a>
 
+
 <button
+type="button"
 onclick="document.getElementById('siteSearch').classList.toggle('open')"
-title="{% if page.lang == 'fr' %}Rechercher{% else %}Search{% endif %}">
+title="{% if page.lang == 'fr' %}Rechercher{% else %}Search{% endif %}"
+>
 
 <svg viewBox="0 0 24 24">
 <circle cx="11" cy="11" r="8"/>
@@ -377,10 +439,16 @@ title="{% if page.lang == 'fr' %}Rechercher{% else %}Search{% endif %}">
 
 </button>
 
+
 <button
+type="button"
 class="hamburger-btn"
-onclick="document.getElementById('mobileMenu').classList.add('open'); document.getElementById('overlay').classList.add('open');"
-title="Menu">
+onclick="
+document.getElementById('mobileMenu').classList.add('open');
+document.getElementById('overlay').classList.add('open');
+"
+title="{% if page.lang == 'fr' %}Menu{% else %}Menu{% endif %}"
+>
 
 <span></span>
 <span></span>
@@ -389,80 +457,102 @@ title="Menu">
 </button>
 
 </div>
+
+
+<!-- SEARCH -->
 
 <form
 class="search-box"
 id="siteSearch"
 action="https://www.google.com/search"
 method="get"
-target="_blank">
+target="_blank"
+>
 
 <input
 type="hidden"
 name="sitesearch"
-value="spamedgecompany.github.io">
+value="spamedgecompany.github.io"
+>
 
 <input
 type="text"
 name="q"
-placeholder="{% if page.lang == 'fr' %}Rechercher...{% else %}Search...{% endif %}">
+placeholder="{% if page.lang == 'fr' %}Rechercher...{% else %}Search...{% endif %}"
+>
 
 </form>
 
 </nav>
 
 
+<!-- OVERLAY -->
+
 <div
 class="overlay"
 id="overlay"
-onclick="document.getElementById('mobileMenu').classList.remove('open'); this.classList.remove('open');">
+onclick="
+document.getElementById('mobileMenu').classList.remove('open');
+this.classList.remove('open');
+"
+>
 </div>
 
+
+<!-- MOBILE MENU -->
 
 <div class="mobile-menu" id="mobileMenu">
 
 <button
+type="button"
 class="close-btn"
-onclick="document.getElementById('mobileMenu').classList.remove('open'); document.getElementById('overlay').classList.remove('open');">
+onclick="
+document.getElementById('mobileMenu').classList.remove('open');
+document.getElementById('overlay').classList.remove('open');
+"
+>
 ×
 </button>
 
 
 {% if page.lang == "fr" %}
 
+<!-- FRENCH MENU -->
+
 <a href="/fr/">Accueil</a>
-<a href="/fr/about">À propos de SpamEDGE Company</a>
-<a href="/fr/leadership">Direction</a>
-<a href="/fr/services">Services</a>
-<a href="/fr/projects">Projets</a>
-<a href="/fr/subsidiaries">Filiales</a>
-<a href="/fr/blog">Actualités</a>
-<a href="/fr/contact">Contact</a>
+<a href="/fr/about.html">À propos</a>
+<a href="/fr/services.html">Services</a>
+<a href="/fr/projects.html">Projets</a>
+<a href="/fr/contact.html">Contact</a>
 
 {% else %}
 
+<!-- ENGLISH MENU -->
+
 <a href="/">Home</a>
-<a href="/about">About SpamEDGE Company</a>
-<a href="/leadership">Leadership</a>
-<a href="/services">Services</a>
-<a href="/projects">Projects</a>
-<a href="/subsidiaries">Subsidiaries</a>
-<a href="/blog">News</a>
-<a href="/contact">Contact</a>
+<a href="/about.html">About</a>
+<a href="/services.html">Services</a>
+<a href="/projects.html">Projects</a>
+<a href="/contact.html">Contact</a>
 
 {% endif %}
 
 </div>
 
 
+<!-- PAGE CONTENT -->
+
 <main>
 {{ content }}
 </main>
 
 
+<!-- FOOTER -->
+
 <footer class="site-footer">
 
 <div class="footer-inner">
+
 
 <div class="footer-col">
 
@@ -485,33 +575,36 @@ onclick="document.getElementById('mobileMenu').classList.remove('open'); documen
 
 {% if page.lang == "fr" %}
 
-<a href="/fr/about">À propos</a>
-<a href="/fr/contact">Contact</a>
-<a href="/fr/services">Services</a>
-<a href="/fr/subsidiaries">Filiales</a>
+<a href="/fr/about.html">À propos</a>
+<a href="/fr/contact.html">Contact</a>
+<a href="/fr/services.html">Services</a>
 
 {% else %}
 
-<a href="/about">About Us</a>
-<a href="/contact">Contact</a>
-<a href="/services">Services</a>
-<a href="/subsidiaries">Subsidiaries</a>
+<a href="/about.html">About Us</a>
+<a href="/contact.html">Contact</a>
+<a href="/services.html">Services</a>
 
 {% endif %}
 
 </div>
 
 
+<!-- SOCIAL LINKS -->
+
 <div class="footer-social">
 
 <a
 href="https://linkedin.com"
 target="_blank"
-title="LinkedIn">
+rel="noopener noreferrer"
+title="LinkedIn"
+>
 
 <img
 src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg"
-alt="LinkedIn">
+alt="LinkedIn"
+>
 
 </a>
 
@@ -519,11 +612,14 @@ alt="LinkedIn">
 <a
 href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr"
 target="_blank"
-title="Facebook">
+rel="noopener noreferrer"
+title="Facebook"
+>
 
 <img
 src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg"
-alt="Facebook">
+alt="Facebook"
+>
 
 </a>
 
@@ -531,11 +627,14 @@ alt="Facebook">
 <a
 href="https://www.instagram.com/spamedgecompanyng"
 target="_blank"
-title="Instagram">
+rel="noopener noreferrer"
+title="Instagram"
+>
 
 <img
 src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg"
-alt="Instagram">
+alt="Instagram"
+>
 
 </a>
 
