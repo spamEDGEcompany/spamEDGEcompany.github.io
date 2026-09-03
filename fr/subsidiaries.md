@@ -1,72 +1,26 @@
-
-
-
-
-⸻
-
 layout: default
 title: Filiales
-
+lang: fr
+permalink: /fr/subsidiaries/
 Nos filiales
-
 Notre proposition de valeur
-
-Innover. Donner du pouvoir aux personnes. Construire l’avenir.
-
-Chez SpamEDGE Company, nous réunissons technologie, innovation, expertise et impact social afin de développer des solutions concrètes capables de répondre aux défis du monde réel.
-
-À travers nos différentes filiales, nous proposons des services technologiques et d’ingénierie fondés sur la précision, nous contribuons au développement des communautés par l’éducation et l’autonomisation, et nous explorons de nouvelles opportunités dans les domaines de la blockchain et des actifs numériques.
-
-Notre mission est de transformer les idées en solutions, de créer des opportunités et de générer une valeur durable pour les personnes, les entreprises et les communautés.
-
-Nous voulons bâtir une organisation dans laquelle la technologie répond à un objectif concret, où l’innovation ouvre de nouvelles possibilités et où l’humain reste au cœur du développement.
-
-Qu’il s’agisse de solutions d’ingénierie et géospatiales, d’initiatives axées sur les communautés ou de technologies émergentes liées à la blockchain, nous cherchons à créer une valeur qui dépasse les limites de notre organisation et contribue au développement des communautés, des industries et des personnes que nous accompagnons.
-
-SpamEDGE Company — Transformer les idées en solutions, les opportunités en impact et l’innovation en un avenir meilleur.
-
+Innover les solutions. Autonomiser les personnes. Construire l’avenir.
+Chez SpamEDGE Company, nous combinons technologie, innovation, expertise et impact social pour créer des solutions pratiques qui répondent aux défis concrets.
+À travers nos filiales, nous fournissons des services techniques et d’ingénierie axés sur la précision, nous autonomisons les communautés par l’éducation et le développement, et nous explorons de nouvelles opportunités dans la blockchain et les actifs numériques.
+Notre mission est de transformer les idées en solutions, de créer des opportunités et d’apporter une valeur durable aux personnes, aux entreprises et aux communautés.
+Notre engagement est de bâtir une organisation où la technologie a un sens, où l’innovation crée des opportunités, et où les personnes restent au cœur du développement.
+Que ce soit à travers des solutions d’ingénierie et de géospatiale, des initiatives axées sur la communauté, ou des technologies blockchain émergentes, nous cherchons à créer une valeur qui dépasse notre organisation et qui contribue à la croissance des communautés, des industries et des personnes que nous servons.
+SpamEDGE Company — transformer les idées en solutions, les opportunités en impact, et l’innovation en un avenir meilleur.
 Nos filiales
-
-SpamEDGE Company s’appuie sur des filiales spécialisées, chacune dédiée à un domaine spécifique de l’innovation, du développement et de la création d’impact.
-
+SpamEDGE Company opère à travers des filiales spécialisées, chacune dédiée à un domaine distinct d’innovation, de développement et d’impact.
 SpamEDGE Technology Limited
-
-Solutions géospatiales, ingénierie et technologies numériques.
-
-SpamEDGE Technology Limited fournit des services fondés sur la précision, en s’appuyant sur des outils modernes, des technologies avancées et des approches innovantes.
-
-La filiale associe expertise technique, outils numériques et méthodes modernes afin d’accompagner les projets et les organisations qui ont besoin de données fiables, de solutions d’ingénierie, de services technologiques et d’une expertise technique professionnelle.
-
-Notre objectif est d’aider nos clients à mieux comprendre leurs données, à améliorer leurs processus et à prendre des décisions plus efficaces grâce à la technologie.
-
+Fournit des solutions géospatiales, d’ingénierie et de technologie numérique, offrant des services axés sur la précision grâce à des outils modernes, à la technologie et à l’innovation.
+Cette filiale combine expertise technique, outils numériques et approches innovantes pour accompagner les projets et organisations qui nécessitent des données précises, des solutions d’ingénierie, des services technologiques et une expertise technique professionnelle.
 SpamEDGE Foundation
-
-Notre branche dédiée à l’impact social, au développement communautaire et à l’autonomisation.
-
-SpamEDGE Foundation œuvre à créer des opportunités et à soutenir les communautés à travers des initiatives axées sur l’éducation, le développement des compétences, l’autonomisation et l’engagement communautaire.
-
-La fondation accorde une attention particulière aux communautés vulnérables et insuffisamment desservies, tout en encourageant les programmes qui favorisent l’éducation, l’inclusion sociale et le progrès économique.
-
-Notre ambition est de contribuer à un environnement dans lequel les individus disposent des connaissances, des compétences et des opportunités nécessaires pour construire un avenir meilleur.
-
+Notre branche d’impact social, dédiée au développement communautaire, à l’éducation, à l’autonomisation et aux initiatives de sensibilisation qui créent un changement positif significatif et durable.
+La fondation se concentre sur la création d’opportunités, le soutien aux communautés vulnérables et défavorisées, la promotion de l’éducation et du développement des compétences, ainsi que l’encouragement d’initiatives qui contribuent au progrès social et économique.
 SpamEDGE Chain
-
-Explorer l’avenir des actifs numériques et de la technologie blockchain.
-
-SpamEDGE Chain se concentre sur les actifs numériques, la blockchain et les technologies décentralisées émergentes qui façonnent progressivement l’économie numérique.
-
-Nous explorons les possibilités offertes par l’écosystème blockchain et cherchons à comprendre comment les technologies décentralisées peuvent contribuer à améliorer la transparence, la propriété numérique, l’innovation financière et les nouvelles formes de participation économique.
-
-À travers cette initiative, SpamEDGE souhaite rester à l’avant-garde des évolutions technologiques et identifier les opportunités qui pourraient contribuer à façonner l’économie numérique de demain.
-
-Une entreprise. Plusieurs possibilités. Une vision commune.
-
-À travers toutes ses filiales, SpamEDGE Company reste guidée par une même ambition : utiliser l’innovation, la technologie et le potentiel humain pour créer des solutions qui ont une véritable importance.
-
-Nous croyons que l’avenir appartient aux organisations capables de combiner expertise, innovation et impact pour répondre aux besoins réels de la société.
-
-SpamEDGE Company — L’innovation avec un objectif. La technologie avec un impact.
-
-⸻
-
-← Retour à l’accueil
+Axée sur les actifs numériques et l’innovation blockchain, explorant les technologies décentralisées émergentes et leur potentiel à façonner l’avenir de l’économie numérique.
+SpamEDGE Chain cherche à comprendre et à développer des opportunités au sein de l’écosystème blockchain en pleine évolution, tout en explorant comment les technologies décentralisées peuvent améliorer la transparence, la propriété numérique, l’innovation financière et de nouveaux modèles de participation économique.
+Une entreprise. De multiples possibilités. Une vision commune.
+À travers chacune de ses filiales, SpamEDGE Company reste unie par un objectif commun : utiliser l’innovation, la technologie et le potentiel humain pour créer des solutions qui comptent.
