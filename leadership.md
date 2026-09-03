@@ -7,7 +7,7 @@ title: Leadership
 
 ## Founder & Chief Executive Officer
 
-<img src="/Founder.jpg" alt="Amusa Abdullahi Akintayo" style="max-width:220px; border-radius:8px; display:block; margin-bottom:20px;">
+<img src="/Founder.jpeg" alt="Amusa Abdullahi Akintayo" style="max-width:220px; border-radius:8px; display:block; margin-bottom:20px;">
 
 **Amusa Abdullahi Akintayo**
 *Founder & CEO, SpamEDGE Company*
