@@ -1,120 +1,64 @@
----
----
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ page.title }} | SpamEDGE Company</title>
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<style>
-body { font-family: -apple-system, Arial, sans-serif; margin: 0; padding: 0; color: #24292e; }
-nav { background: #1a1a2e; padding: 16px 24px; display: flex; gap: 24px; align-items: center; }
-nav .brand { color: #fff; font-weight: bold; font-size: 18px; margin-right: auto; }
-nav a { color: #eaeaea; text-decoration: none; font-weight: 500; }
-nav a:hover { color: #4da6ff; }
-main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
-.lang-switch { display: flex; gap: 6px; margin-left: auto; }
-.lang-switch a { padding: 4px 8px; border: 1px solid #444; border-radius: 4px; font-size: 13px; }
-.nav-icons { display: flex; gap: 14px; align-items: center; }
-.nav-icons button, .nav-icons a { background: none; border: none; cursor: pointer; color: #eaeaea; display: flex; align-items: center; padding: 0; }
-.nav-icons svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; }
-.search-box { display: none; position: absolute; top: 60px; right: 24px; background: #1a1a2e; padding: 10px; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.3); }
-.search-box.open { display: flex; }
-.search-box input { padding: 8px 10px; border: none; border-radius: 4px; width: 200px; }
-.hamburger-btn { background: none; border: none; cursor: pointer; display: flex; flex-direction: column; gap: 5px; padding: 4px; }
-.hamburger-btn span { width: 24px; height: 2px; background: #eaeaea; display: block; }
-.mobile-menu { display: none; position: fixed; top: 0; right: 0; width: 280px; height: 100%; background: #fff; box-shadow: -4px 0 20px rgba(0,0,0,0.2); z-index: 100; padding: 24px; flex-direction: column; gap: 4px; }
-.mobile-menu.open { display: flex; }
-.mobile-menu a { color: #1a2b4c; text-decoration: none; padding: 14px 8px; border-bottom: 1px solid #eee; font-weight: 500; }
-.mobile-menu .close-btn { align-self: flex-end; background: none; border: none; font-size: 24px; cursor: pointer; margin-bottom: 12px; color: #1a2b4c; }
-.overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 99; }
-.overlay.open { display: block; }
-.news-hero { position: relative; overflow: hidden; padding: 80px 20px 140px; text-align: center; background: #fff; }
-.watermark { position: absolute; bottom: -10px; left: 0; width: 100%; font-size: 18vw; font-weight: 800; color: #f2f4f7; z-index: 0; white-space: nowrap; line-height: 1; }
-.hero-content { position: relative; z-index: 1; }
-.hero-content h1 { font-size: 3rem; color: #3aa0b3; margin-bottom: 40px; }
-.cta-btn { display: inline-block; background: #4aa8b8; color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 0.05em; padding: 20px 50px; text-transform: uppercase; }
-.news-hero::after { content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 120px; background: #1c3a68; clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%); z-index: 0; }
-.site-footer { position: relative; background: #1a2b4c; color: #fff; padding: 48px 24px 32px; margin-top: 40px; }
-.site-footer::before { content: ""; position: absolute; top: -60px; left: 0; width: 100%; height: 60px; background: #fff; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 40%); }
-.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px; max-width: 1000px; margin: 0 auto; }
-.footer-col a { display: block; color: #eaeaea; text-decoration: underline; margin-bottom: 10px; font-size: 14px; }
-.footer-col p { font-size: 14px; color: #cfd6e4; margin: 4px 0; }
-.footer-social { display: flex; gap: 16px; }
-.footer-social a { background: transparent; border: 1.5px solid #fff; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
-.footer-social img { width: 20px; height: 20px; filter: invert(1); }
-</style>
-</head>
-<body>
-<nav style="position:relative;">
-<a href="/" style="display:flex; align-items:center; gap:8px; text-decoration:none;">
-<img src="/company%20logo.jpeg" alt="SpamEDGE Company" style="height:32px;">
-<span class="brand">SpamEDGE Company</span>
-</a>
-<div class="lang-switch">
-<a href="/">EN</a>
-<a href="/fr/">FR</a>
+
+
+
+
+⸻
+
+
+<div style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px;">
+<h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">La précision en ingénierie, construire l'avenir</h1>
+<p style="max-width:600px; font-size:17px; opacity:0.9;">Des solutions dans les domaines de la technologie géospatiale, de l'ingénierie, de la construction, de l'architecture et de l'innovation numérique.</p>
 </div>
-<div class="nav-icons">
-<a href="mailto:info.spamedgdecompany@gmail.com" title="Email us">
-<svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
-</a>
-<button onclick="document.getElementById('siteSearch').classList.toggle('open')" title="Search">
-<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-</button>
-<button class="hamburger-btn" onclick="document.getElementById('mobileMenu').classList.add('open'); document.getElementById('overlay').classList.add('open');" title="Menu">
-<span></span><span></span><span></span>
-</button>
+<div style="padding:48px 24px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Construire des solutions durables</h2>
+<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company est une organisation multidisciplinaire et axée sur la technologie, engagée à fournir des solutions fiables, innovantes et créatrices de valeur dans les domaines de la géomatique, de l'ingénierie, de la construction, de l'architecture et de la technologie. Nous combinons expertise professionnelle, technologies modernes et approches pratiques afin de proposer des solutions qui répondent aux besoins évolutifs de nos clients et contribuent au développement durable.
+
+Notre expertise repose sur la topographie et la géomatique, les SIG, la cartographie numérique, l’acquisition de données spatiales, l’assistance technique en ingénierie, la construction, la conception architecturale et les solutions technologiques. En réunissant ces différents domaines, nous proposons des services intégrés qui permettent à nos clients de mieux planifier, de prendre des décisions éclairées, d’améliorer leur efficacité et de mener à bien leurs projets.
+
+Chez SpamEDGE, nous croyons que la technologie doit rendre les processus complexes plus simples, plus rapides, plus précis et plus accessibles. Nous explorons continuellement de nouvelles méthodes et les technologies émergentes afin d’améliorer la manière dont les services géospatiaux et techniques sont fournis.
+
+Notre engagement envers la précision, le professionnalisme, l’innovation, l’intégrité et l’amélioration continue guide chacun des projets que nous réalisons. Nous œuvrons à établir des relations durables avec nos clients grâce à des services fiables, une communication efficace et des solutions adaptées à leurs besoins spécifiques.
+
+Alors que nous poursuivons notre croissance, notre vision est de faire de SpamEDGE un partenaire de confiance et tourné vers l’avenir dans les secteurs de la géomatique, de l’ingénierie et de la technologie, en contribuant à des infrastructures plus intelligentes, à une meilleure prise de décision spatiale et à des avancées technologiques significatives.
+
+SpamEDGE Company — Simplifier le monde géospatial grâce à l’innovation et à la technologie.
+
 </div>
-<form class="search-box" id="siteSearch" action="https://www.google.com/search" method="get" target="_blank">
-<input type="hidden" name="sitesearch" value="spamedgecompany.github.io">
-<input type="text" name="q" placeholder="Search...">
-</form>
-</nav>
-<div class="overlay" id="overlay" onclick="document.getElementById('mobileMenu').classList.remove('open'); this.classList.remove('open');"></div>
-<div class="mobile-menu" id="mobileMenu">
-<button class="close-btn" onclick="document.getElementById('mobileMenu').classList.remove('open'); document.getElementById('overlay').classList.remove('open');">×</button>
-<a href="/">Home</a>
-<a href="/about">About SpamEDGE Company</a>
-<a href="/leadership">Leadership</a>
-<a href="/services">Services</a>
-<a href="/projects">Projects</a>
-<a href="/subsidiaries">Subsidiaries</a>
-<a href="/blog">News</a>
-<a href="/contact">Contact</a>
-</div>
-<main>
-{{ content }}
-</main>
-<footer class="site-footer">
-<div class="footer-inner">
-<div class="footer-col">
-<p>© 2026 SpamEDGE Company.</p>
-<p>All rights reserved.</p>
-</div>
-<div class="footer-col">
-<a href="/about">About Us</a>
-<a href="/contact">Contact</a>
-<a href="/services">Services</a>
-<a href="/subsidiaries">Subsidiaries</a>
-</div>
-<div class="footer-social">
-<a href="https://linkedin.com" target="_blank" title="LinkedIn">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
-</a>
-<a href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" title="Facebook">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook">
-</a>
-<a href="https://www.instagram.com/spamedgecompanyng" target="_blank" title="Instagram">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
-</a>
+<div style="background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px;">
+<h2>Notre expertise</h2>
+<div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
+<div><div style="font-size:36px; font-weight:800;">5</div><div>Divisions principales</div></div>
+<div><div style="font-size:36px; font-weight:800;">3</div><div>Filiales</div></div>
+<div><div style="font-size:36px; font-weight:800;">100%</div><div>Engagement envers l'impact</div></div>
 </div>
 </div>
-</footer>
-</body>
-</html>
+<div style="padding:48px 24px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Nos services</h2>
+<ul style="font-size:16px; line-height:1.9; color:#333;">
+<li><strong>Géomatique & Topographie</strong> — Topographie foncière, topographie d'ingénierie, topographie cadastrale, levés GNSS/RTK, SIG et cartographie, photogrammétrie par drone</li>
+<li><strong>Construction & Ingénierie</strong> — Développement d'infrastructures, implantation de sites, conseil en ingénierie</li>
+<li><strong>Architecture & Design</strong> — Conception architecturale, modélisation 3D, services CAO</li>
+<li><strong>Technologie</strong> — Solutions numériques, technologies géospatiales, gestion des données</li>
+</ul>
+<a href="/services" style="color:#c0177c; font-weight:700; text-decoration:none;">Voir tous les services →</a>
+</div>
+<div style="padding:0 24px 48px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Nos filiales</h2>
+<ul style="font-size:16px; line-height:1.9; color:#333;">
+<li><strong>SpamEDGE Technology Limited</strong> — Services en géomatique, ingénierie et technologies numériques</li>
+<li><strong>SpamEDGE Foundation</strong> — Impact social et développement communautaire</li>
+<li><strong>SpamEDGE Chain</strong> — Actifs numériques et initiatives blockchain</li>
+</ul>
+</div>
+<div style="background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:100px 24px; min-height:360px; display:flex; flex-direction:column; justify-content:center; margin-bottom:8px;">
+<h2 style="font-size:32px;">SpamEDGE Foundation</h2>
+<p style="max-width:600px; font-size:18px; line-height:1.8;">Notre branche dédiée à l'impact social est engagée dans le développement communautaire, les actions de proximité et les initiatives éducatives qui créent un changement positif et durable.</p>
+<a href="/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">EN SAVOIR PLUS</a>
+</div>
+<div style="padding:48px 24px; max-width:800px; margin:0 auto;">
+<p style="font-size:16px; line-height:1.7; color:#333;">SPAMEDGE Foundation est une organisation engagée et orientée vers l'impact, déterminée à autonomiser les individus, à soutenir les communautés et à créer des opportunités pour un impact social positif. Grâce à des initiatives stratégiques, des partenariats et des programmes axés sur les communautés, nous œuvrons à inspirer la croissance, à promouvoir l'inclusion et à contribuer à un avenir meilleur.</p>
+</div>
+<div style="background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:100px 24px; min-height:360px; display:flex; flex-direction:column; justify-content:center; text-align:center;">
+<h2>Prêt à travailler avec nous ?</h2>
+<a href="/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content; align-self:center;">CONTACTEZ-NOUS</a>
+</div>
