@@ -5,12 +5,12 @@ title: Leadership
 
 # Leadership
 
-## Founder & Chief Executive Officer
+## Founder & Managing Director
 
 <img src="/Founder.jpeg" alt="Amusa Abdullahi Akintayo" style="max-width:220px; border-radius:8px; display:block; margin-bottom:20px;">
 
 **Amusa Abdullahi Akintayo**
-*Founder & CEO, SpamEDGE Company*
+*Founder & MD, SpamEDGE Company*
 
 Amusa Abdullahi Akintayo is the Founder and Chief Executive Officer of SpamEDGE Company, a multidisciplinary company focused on delivering innovative solutions across Geospatial, Engineering, Construction, Architecture, and Technology.
 
