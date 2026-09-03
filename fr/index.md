@@ -1,7 +1,7 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="{% if page.lang == 'fr' %}fr{% else %}en{% endif %}">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,6 @@ nav a:hover { color: #4da6ff; }
 main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 .lang-switch { display: flex; gap: 6px; margin-left: auto; }
 .lang-switch a { padding: 4px 8px; border: 1px solid #444; border-radius: 4px; font-size: 13px; }
-.lang-switch a.active { background: #4da6ff; border-color: #4da6ff; color: #fff; }
 .nav-icons { display: flex; gap: 14px; align-items: center; }
 .nav-icons button, .nav-icons a { background: none; border: none; cursor: pointer; color: #eaeaea; display: flex; align-items: center; padding: 0; }
 .nav-icons svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; }
@@ -53,13 +52,13 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 </head>
 <body>
 <nav style="position:relative;">
-<a href="{% if page.lang == 'fr' %}/fr/{% else %}/{% endif %}" style="display:flex; align-items:center; gap:8px; text-decoration:none;">
+<a href="/" style="display:flex; align-items:center; gap:8px; text-decoration:none;">
 <img src="/company%20logo.jpeg" alt="SpamEDGE Company" style="height:32px;">
 <span class="brand">SpamEDGE Company</span>
 </a>
 <div class="lang-switch">
-<a href="/" class="{% if page.lang != 'fr' %}active{% endif %}">EN</a>
-<a href="/fr/" class="{% if page.lang == 'fr' %}active{% endif %}">FR</a>
+<a href="/">EN</a>
+<a href="/fr/">FR</a>
 </div>
 <div class="nav-icons">
 <a href="mailto:info.spamedgdecompany@gmail.com" title="Email us">
@@ -74,22 +73,12 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 </div>
 <form class="search-box" id="siteSearch" action="https://www.google.com/search" method="get" target="_blank">
 <input type="hidden" name="sitesearch" value="spamedgecompany.github.io">
-<input type="text" name="q" placeholder="{% if page.lang == 'fr' %}Rechercher...{% else %}Search...{% endif %}">
+<input type="text" name="q" placeholder="Search...">
 </form>
 </nav>
 <div class="overlay" id="overlay" onclick="document.getElementById('mobileMenu').classList.remove('open'); this.classList.remove('open');"></div>
 <div class="mobile-menu" id="mobileMenu">
 <button class="close-btn" onclick="document.getElementById('mobileMenu').classList.remove('open'); document.getElementById('overlay').classList.remove('open');">×</button>
-{% if page.lang == "fr" %}
-<a href="/fr/">Accueil</a>
-<a href="/fr/about">À propos de SpamEDGE Company</a>
-<a href="/fr/leadership">Direction</a>
-<a href="/fr/services">Services</a>
-<a href="/fr/projects">Projets</a>
-<a href="/fr/subsidiaries">Filiales</a>
-<a href="/fr/blog">Actualités</a>
-<a href="/fr/contact">Contact</a>
-{% else %}
 <a href="/">Home</a>
 <a href="/about">About SpamEDGE Company</a>
 <a href="/leadership">Leadership</a>
@@ -98,7 +87,6 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 <a href="/subsidiaries">Subsidiaries</a>
 <a href="/blog">News</a>
 <a href="/contact">Contact</a>
-{% endif %}
 </div>
 <main>
 {{ content }}
@@ -106,26 +94,14 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 <footer class="site-footer">
 <div class="footer-inner">
 <div class="footer-col">
-{% if page.lang == "fr" %}
-<p>© 2026 SpamEDGE Company.</p>
-<p>Tous droits réservés.</p>
-{% else %}
 <p>© 2026 SpamEDGE Company.</p>
 <p>All rights reserved.</p>
-{% endif %}
 </div>
 <div class="footer-col">
-{% if page.lang == "fr" %}
-<a href="/fr/about">À propos</a>
-<a href="/fr/contact">Contact</a>
-<a href="/fr/services">Services</a>
-<a href="/fr/subsidiaries">Filiales</a>
-{% else %}
 <a href="/about">About Us</a>
 <a href="/contact">Contact</a>
 <a href="/services">Services</a>
 <a href="/subsidiaries">Subsidiaries</a>
-{% endif %}
 </div>
 <div class="footer-social">
 <a href="https://linkedin.com" target="_blank" title="LinkedIn">
