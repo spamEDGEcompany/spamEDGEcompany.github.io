@@ -3,7 +3,7 @@ layout: default
 title: Subsidiaries
 ---
 
-# # Our Subsidiaries
+# Our Subsidiaries
 
 # Our Value Proposition
 Innovating Solutions. Empowering People. Building the Future.
