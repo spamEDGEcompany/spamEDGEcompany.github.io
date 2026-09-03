@@ -31,3 +31,8 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 <div><div style="font-size:36px; font-weight:800;">100%</div><div>Commitment to Impact</div></div>
 </div>
 </div>
+
+<div style="background-image: linear-gradient(rgba(192,23,124,0.85), rgba(192,23,124,0.85)), url('/cta-bg.jpg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center;">
+<h2>Ready to Work With Us?</h2>
+<a href="/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
+</div>
