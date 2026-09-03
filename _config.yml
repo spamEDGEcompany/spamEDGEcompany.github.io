@@ -3,18 +3,30 @@ description: "SpamEDGE Company delivers precision-driven solutions in geospatial
 url: "https://spamedgecompany.github.io"
 baseurl: ""
 lang: "en"
+
 author:
   name: "SpamEDGE Company"
+
 logo: "/favicon.png"
+
 social:
   name: "SpamEDGE Company"
   links: []
+
 theme: jekyll-theme-minimal
+
 plugins:
   - jekyll-seo-tag
+
 twitter:
   card: summary_large_image
+
 defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "en"
+
   - scope:
       path: "fr"
     values:
