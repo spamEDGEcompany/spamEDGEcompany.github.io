@@ -1,9 +1,7 @@
-
-
-
-
-⸻
-
+---
+layout: default
+title: Home
+---
 
 <div style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">La précision en ingénierie, construire l'avenir</h1>
