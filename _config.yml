@@ -21,11 +21,6 @@ plugins:
 twitter:
   card: summary_large_image
 
-collections:
-  fr_posts:
-    output: true
-    permalink: /fr/blog/:year/:month/:day/:title/
-
 defaults:
   - scope:
       path: ""
@@ -36,10 +31,3 @@ defaults:
       path: "fr"
     values:
       lang: "fr"
-
-  - scope:
-      collection: "fr_posts"
-    values:
-      lang: "fr"
-      layout: default
-    
