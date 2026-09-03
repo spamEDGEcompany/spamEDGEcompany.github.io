@@ -52,7 +52,7 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 </ul>
 </div>
 
-<div style="background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:400px; display:flex; flex-direction:column; justify-content:center;">
+<div style="background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:400px; display:flex; flex-direction:column; justify-content:center;">
 <h2 style="font-size:32px;">SpamEDGE Foundation</h2>
 <p style="max-width:600px; font-size:18px; line-height:1.8;">Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.</p>
 <a href="/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">LEARN MORE</a>
