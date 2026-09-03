@@ -25,6 +25,12 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 .dropdown:hover .dropdown-content { display: block; }
 .lang-switch { display: flex; gap: 6px; }
 .lang-switch a { padding: 4px 8px; border: 1px solid #444; border-radius: 4px; font-size: 13px; }
+.nav-icons { display: flex; gap: 14px; align-items: center; }
+.nav-icons button, .nav-icons a { background: none; border: none; cursor: pointer; color: #eaeaea; display: flex; align-items: center; padding: 0; }
+.nav-icons svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; }
+.search-box { display: none; position: absolute; top: 60px; right: 24px; background: #1a1a2e; padding: 10px; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.3); }
+.search-box.open { display: flex; }
+.search-box input { padding: 8px 10px; border: none; border-radius: 4px; width: 200px; }
 .news-hero { position: relative; overflow: hidden; padding: 80px 20px 140px; text-align: center; background: #fff; }
 .watermark { position: absolute; bottom: -10px; left: 0; width: 100%; font-size: 18vw; font-weight: 800; color: #f2f4f7; z-index: 0; white-space: nowrap; line-height: 1; }
 .hero-content { position: relative; z-index: 1; }
@@ -42,7 +48,7 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 </style>
 </head>
 <body>
-<nav>
+<nav style="position:relative;">
 <a href="/" style="display:flex; align-items:center; gap:8px; text-decoration:none;">
 <img src="/company%20logo.jpeg" alt="SpamEDGE Company" style="height:32px;">
 <span class="brand">SpamEDGE Company</span>
@@ -64,6 +70,18 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 <a href="/">EN</a>
 <a href="/fr/">FR</a>
 </div>
+<div class="nav-icons">
+<a href="mailto:info.spamedgdecompany@gmail.com" title="Email us">
+<svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
+</a>
+<button onclick="document.getElementById('siteSearch').classList.toggle('open')" title="Search">
+<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+</button>
+</div>
+<form class="search-box" id="siteSearch" action="https://www.google.com/search" method="get" target="_blank">
+<input type="hidden" name="sitesearch" value="spamedgecompany.github.io">
+<input type="text" name="q" placeholder="Search...">
+</form>
 </nav>
 <main>
 {{ content }}
