@@ -1,7 +1,3 @@
-layout: default
-title: Accueil
-lang: fr
-permalink: /fr/
 <div style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Précision en ingénierie, construire l'avenir</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Nous développons des solutions dans les domaines de la géospatiale, de l'ingénierie, de la construction, de l'architecture et de l'innovation numérique.</p>
