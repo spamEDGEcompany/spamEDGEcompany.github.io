@@ -6,8 +6,6 @@ title: Home
 <div style="background-image: linear-gradient(rgba(26,43,76,0.75), rgba(26,43,76,0.75)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
-<a href="/services" style="background:#c0177c; color:#fff; padding:14px 28px; text-decoration:none; font-weight:700; margin-right:12px; display:inline-block; margin-top:20px;">OUR SERVICES</a>
-<a href="/contact" style="border:2px solid #fff; color:#fff; padding:12px 26px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px;">CONTACT US</a>
 </div>
 
 <div style="padding:48px 24px; max-width:800px;">
@@ -32,29 +30,4 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 <div><div style="font-size:36px; font-weight:800;">3</div><div>Subsidiaries</div></div>
 <div><div style="font-size:36px; font-weight:800;">100%</div><div>Commitment to Impact</div></div>
 </div>
-</div>
-
-<div style="padding:48px 24px; max-width:800px;">
-<h2 style="color:#1a2b4c;">Our Services</h2>
-<ul style="font-size:16px; line-height:1.9; color:#333;">
-<li><strong>Geospatial & Surveying</strong> — Land, Engineering, Cadastral & GNSS/RTK Surveying, GIS & Mapping, Drone Photogrammetry</li>
-<li><strong>Construction & Engineering</strong> — Infrastructure Development, Site Setting-Out, Engineering Consultancy</li>
-<li><strong>Architecture & Design</strong> — Architectural Design, 3D Modelling, CAD Services</li>
-<li><strong>Technology</strong> — Digital Solutions, Geospatial Tech, Data Management</li>
-</ul>
-<a href="/services" style="color:#c0177c; font-weight:700; text-decoration:none;">See all services →</a>
-</div>
-
-<div style="background-image: linear-gradient(rgba(192,23,124,0.85), rgba(192,23,124,0.85)), url('/cta-bg.jpg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center;">
-<h2>Ready to Work With Us?</h2>
-<a href="/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
-</div>
-
-<div style="padding:48px 24px; max-width:800px;">
-<h2 style="color:#1a2b4c;">Our Subsidiaries</h2>
-<ul style="font-size:16px; line-height:1.9; color:#333;">
-<li><strong>SpamEDGE Technology Limited</strong> — Geospatial, engineering & digital technology services</li>
-<li><strong>SpamEDGE Foundation</strong> — Social impact and community development</li>
-<li><strong>SpamEDGE Chain</strong> — Digital assets and blockchain initiatives</li>
-</ul>
 </div>
