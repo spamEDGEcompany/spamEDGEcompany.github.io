@@ -25,7 +25,7 @@ As we continue to grow, our vision is to establish SpamEDGE as a trusted and for
 SpamEDGE Company — Making the Geospatial World Easier Through Innovation and Technology.</p>
 </div>
 
-<div style="background:#1a2b4c; color:#fff; padding:48px 24px;">
+<div style="background-image: linear-gradient(rgba(26,43,76,0.85), rgba(26,43,76,0.85)), url('/expertise-bg.jpg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px;">
 <h2>Our Expertise</h2>
 <div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
 <div><div style="font-size:36px; font-weight:800;">5</div><div>Core Divisions</div></div>
@@ -45,7 +45,7 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 <a href="/services" style="color:#c0177c; font-weight:700; text-decoration:none;">See all services →</a>
 </div>
 
-<div style="background:#c0177c; color:#fff; padding:48px 24px; text-align:center;">
+<div style="background-image: linear-gradient(rgba(192,23,124,0.85), rgba(192,23,124,0.85)), url('/cta-bg.jpg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center;">
 <h2>Ready to Work With Us?</h2>
 <a href="/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
 </div>
