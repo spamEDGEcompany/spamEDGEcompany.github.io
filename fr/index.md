@@ -1,149 +1,47 @@
----
 layout: default
 title: Accueil
----
-
-<div style="background-image: linear-gradient(rgba(26,43,76,0.55), rgba(26,43,76,0.55)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:110px 24px;">
-<h1 style="font-size:40px; font-weight:800; margin:0 0 18px;">L'innovation au service d'un avenir plus intelligent</h1>
-<p style="max-width:680px; font-size:18px; line-height:1.7; opacity:0.95;">Nous transformons les idées en solutions concrètes grâce à la technologie géospatiale, l'ingénierie, la construction, l'architecture et l'innovation numérique.</p>
-<a href="/contact" style="background:#c0177c; color:#fff; padding:15px 30px; text-decoration:none; font-weight:700; display:inline-block; margin-top:24px;">DÉMARRER UN PROJET</a>
+lang: fr
+permalink: /fr/
+<div style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px;">
+<h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Précision en ingénierie, construire l'avenir</h1>
+<p style="max-width:600px; font-size:17px; opacity:0.9;">Nous développons des solutions dans les domaines de la géospatiale, de l'ingénierie, de la construction, de l'architecture et de l'innovation numérique.</p>
+</div><div style="padding:48px 24px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Construire des solutions durables</h2>
+<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company est une organisation pluridisciplinaire et technologique engagée à fournir des solutions fiables, innovantes et à forte valeur ajoutée dans les domaines de la géospatiale, de l'ingénierie, de la construction, de l'architecture et de la technologie. Nous combinons expertise professionnelle, technologies modernes et approches pratiques pour répondre aux besoins évolutifs de nos clients et soutenir un développement durable.Notre expertise repose sur la topographie et la géoinformatique, les SIG, la cartographie numérique, l’acquisition de données spatiales, le soutien technique, la construction, la conception architecturale et les solutions technologiques. En réunissant ces domaines, nous offrons des services intégrés qui aident nos clients à mieux planifier, à prendre des décisions éclairées, à améliorer leur efficacité et à réussir leurs projets.
+Chez SpamEDGE, nous croyons que la technologie doit simplifier les processus complexes, les rendre plus rapides, plus précis et plus accessibles. Nous explorons en permanence des méthodes innovantes et des technologies émergentes afin d’améliorer la manière dont les services géospatiaux et techniques sont fournis.
+Notre engagement envers la précision, le professionnalisme, l’innovation, l’intégrité et l’amélioration continue guide chacun de nos projets. Nous construisons des relations durables avec nos clients grâce à des services fiables, une communication efficace et des solutions adaptées à leurs besoins spécifiques.
+À mesure que nous grandissons, notre vision est de faire de SpamEDGE un partenaire de confiance et avant-gardiste dans les secteurs de la géospatiale, de l’ingénierie et de la technologie, contribuant à des infrastructures plus intelligentes, à une meilleure prise de décision spatiale et à des avancées technologiques significatives.
+SpamEDGE Company — Simplifier le monde géospatial grâce à l’innovation et à la technologie.</p>
+</div><div style="background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px;">
+<h2>Notre expertise</h2>
+<div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
+<div><div style="font-size:36px; font-weight:800;">5</div><div>Divisions principales</div></div>
+<div><div style="font-size:36px; font-weight:800;">3</div><div>Filiales</div></div>
+<div><div style="font-size:36px; font-weight:800;">100%</div><div>Engagement envers l'impact</div></div>
 </div>
-
-<div style="padding:70px 24px; max-width:1000px; margin:auto;">
-<h2 style="color:#1a2b4c; font-size:32px;">Des solutions pensées pour faire avancer vos projets</h2>
-
-<p style="font-size:17px; line-height:1.8; color:#444;">SpamEDGE Company est une entreprise multidisciplinaire qui associe expertise technique, innovation et technologie pour répondre aux défis modernes des entreprises, des institutions et des communautés.</p>
-
-<p style="font-size:17px; line-height:1.8; color:#444;">Notre approche repose sur l'intégration de plusieurs domaines complémentaires : géospatial, arpentage, systèmes d'information géographique, ingénierie, construction, architecture et solutions numériques. Cette complémentarité nous permet de proposer des services adaptés aussi bien aux projets de petite échelle qu'aux initiatives complexes.</p>
-
-<p style="font-size:17px; line-height:1.8; color:#444;">Nous accordons une importance particulière à la précision des données, à la qualité de l'exécution et à l'utilisation intelligente de la technologie. Notre objectif est simple : fournir des solutions efficaces, pratiques et durables qui permettent à nos clients de prendre de meilleures décisions et d'obtenir de meilleurs résultats.</p>
-
-<p style="font-size:17px; line-height:1.8; color:#444;">Chez SpamEDGE, nous ne nous contentons pas de fournir un service. Nous cherchons à comprendre les besoins de chaque client, à identifier les meilleures approches et à créer une véritable valeur à chaque étape du projet.</p>
-</div>
-
-<div style="background-image: linear-gradient(rgba(26,43,76,0.72), rgba(26,43,76,0.72)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:75px 24px;">
-<div style="max-width:1000px; margin:auto;">
-
-<h2 style="font-size:32px; margin-bottom:12px;">Notre force repose sur plusieurs expertises</h2>
-
-<p style="font-size:17px; line-height:1.7; max-width:700px;">Une vision multidisciplinaire qui nous permet de connecter les données, la technologie et l'exécution sur le terrain.</p>
-
-<div style="display:flex; gap:45px; flex-wrap:wrap; margin-top:40px;">
-
-<div>
-<div style="font-size:42px; font-weight:800;">05</div>
-<div style="font-size:16px;">Domaines d'expertise</div>
-</div>
-
-<div>
-<div style="font-size:42px; font-weight:800;">03</div>
-<div style="font-size:16px;">Filiales & initiatives</div>
-</div>
-
-<div>
-<div style="font-size:42px; font-weight:800;">01</div>
-<div style="font-size:16px;">Vision : créer de l'impact</div>
-</div>
-
-</div>
-</div>
-</div>
-
-<div style="padding:70px 24px; max-width:1000px; margin:auto;">
-
-<h2 style="color:#1a2b4c; font-size:32px;">Ce que nous faisons</h2>
-
-<p style="font-size:17px; color:#555; line-height:1.7; max-width:700px;">Nous réunissons compétences techniques et solutions innovantes pour accompagner nos clients de la conception à la réalisation.</p>
-
-<div style="display:flex; flex-wrap:wrap; gap:25px; margin-top:35px;">
-
-<div style="flex:1; min-width:260px; padding:28px; border:1px solid #eee;">
-<h3 style="color:#1a2b4c;">Géospatial & Arpentage</h3>
-<p style="color:#555; line-height:1.7;">Levés topographiques, cadastraux et fonciers, GNSS/RTK, SIG, cartographie numérique, collecte et analyse de données spatiales.</p>
-</div>
-
-<div style="flex:1; min-width:260px; padding:28px; border:1px solid #eee;">
-<h3 style="color:#1a2b4c;">Ingénierie & Construction</h3>
-<p style="color:#555; line-height:1.7;">Accompagnement technique, implantation de projets, développement d'infrastructures et solutions adaptées aux exigences du terrain.</p>
-</div>
-
-<div style="flex:1; min-width:260px; padding:28px; border:1px solid #eee;">
-<h3 style="color:#1a2b4c;">Architecture & Conception</h3>
-<p style="color:#555; line-height:1.7;">Conception architecturale, dessins techniques, CAO et modélisation 3D pour donner vie aux concepts et aux projets.</p>
-</div>
-
-<div style="flex:1; min-width:260px; padding:28px; border:1px solid #eee;">
-<h3 style="color:#1a2b4c;">Technologie & Données</h3>
-<p style="color:#555; line-height:1.7;">Solutions numériques, technologies géospatiales, gestion des données et outils technologiques conçus pour améliorer les performances.</p>
-</div>
-
-</div>
-
-<a href="/services" style="color:#c0177c; font-weight:700; text-decoration:none; display:inline-block; margin-top:30px;">EXPLORER NOS SERVICES →</a>
-
-</div>
-
-<div style="background:#f6f7f9; padding:70px 24px;">
-
-<div style="max-width:1000px; margin:auto;">
-
-<h2 style="color:#1a2b4c; font-size:32px;">Un écosystème conçu pour créer plus d'impact</h2>
-
-<p style="font-size:17px; line-height:1.8; color:#555; max-width:750px;">SpamEDGE développe un écosystème composé de différentes initiatives et structures, chacune ayant un rôle spécifique dans notre vision globale.</p>
-
-<div style="display:flex; flex-wrap:wrap; gap:25px; margin-top:35px;">
-
-<div style="flex:1; min-width:270px; background:#fff; padding:30px;">
-<h3 style="color:#1a2b4c;">SpamEDGE Technology Limited</h3>
-<p style="line-height:1.7; color:#555;">Une branche orientée vers les solutions géospatiales, l'ingénierie, les données et les technologies numériques.</p>
-</div>
-
-<div style="flex:1; min-width:270px; background:#fff; padding:30px;">
-<h3 style="color:#2e7d32;">SpamEDGE Foundation</h3>
-<p style="line-height:1.7; color:#555;">Une initiative dédiée au développement communautaire, à l'éducation et à la création d'un impact social durable.</p>
-</div>
-
-<div style="flex:1; min-width:270px; background:#fff; padding:30px;">
-<h3 style="color:#c0177c;">SpamEDGE Chain</h3>
-<p style="line-height:1.7; color:#555;">Une initiative tournée vers les technologies blockchain, les actifs numériques et les opportunités de l'économie numérique.</p>
-</div>
-
-</div>
-
-<a href="/subsidiaries" style="color:#c0177c; font-weight:700; text-decoration:none; display:inline-block; margin-top:30px;">DÉCOUVRIR NOTRE ÉCOSYSTÈME →</a>
-
-</div>
-</div>
-
-<div style="background-image: linear-gradient(rgba(46,125,50,0.68), rgba(46,125,50,0.68)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:95px 24px;">
-
-<div style="max-width:900px; margin:auto;">
-
-<h2 style="font-size:34px;">Créer un impact qui va au-delà des projets</h2>
-
-<p style="font-size:18px; line-height:1.8; max-width:650px;">À travers SpamEDGE Foundation, nous soutenons des initiatives qui favorisent l'éducation, l'autonomisation, le développement communautaire et l'accès aux opportunités.</p>
-
-<a href="/subsidiaries" style="background:#fff; color:#2e7d32; padding:15px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:22px;">DÉCOUVRIR LA FONDATION</a>
-
-</div>
-</div>
-
-<div style="padding:70px 24px; max-width:900px; margin:auto; text-align:center;">
-
-<h2 style="color:#1a2b4c; font-size:32px;">Notre vision</h2>
-
-<p style="font-size:18px; line-height:1.9; color:#555;">Construire une organisation reconnue pour son expertise, son innovation et sa capacité à transformer la technologie en solutions utiles pour les personnes, les entreprises et les communautés.</p>
-
-<p style="font-size:18px; line-height:1.9; color:#555;">Nous avançons avec une conviction : <strong>les meilleures solutions naissent lorsque la connaissance, la technologie et l'impact travaillent ensemble.</strong></p>
-
-</div>
-
-<div style="background-image: linear-gradient(rgba(192,23,124,0.72), rgba(192,23,124,0.72)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:100px 24px; text-align:center;">
-
-<h2 style="font-size:34px;">Construisons quelque chose de remarquable</h2>
-
-<p style="font-size:18px; line-height:1.7; max-width:650px; margin:auto;">Vous avez un projet, une idée ou un défi à résoudre ? Parlons-en et explorons ensemble la meilleure solution.</p>
-
-<a href="/contact" style="background:#fff; color:#c0177c; padding:15px 34px; text-decoration:none; font-weight:700; display:inline-block; margin-top:28px;">PARLONS DE VOTRE PROJET</a>
-
+</div><div style="padding:48px 24px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Nos services</h2>
+<ul style="font-size:16px; line-height:1.9; color:#333;">
+<li><strong>Géospatial et topographie</strong> — Topographie foncière, technique et cadastrale, GNSS/RTK, SIG et cartographie, photogrammétrie par drone</li>
+<li><strong>Construction et ingénierie</strong> — Développement des infrastructures, implantation de chantier, conseil en ingénierie</li>
+<li><strong>Architecture et design</strong> — Conception architecturale, modélisation 3D, services CAO</li>
+<li><strong>Technologie</strong> — Solutions numériques, technologie géospatiale, gestion des données</li>
+</ul>
+<a href="/fr/services" style="color:#c0177c; font-weight:700; text-decoration:none;">Voir tous les services →</a>
+</div><div style="padding:0 24px 48px; max-width:800px;">
+<h2 style="color:#1a2b4c;">Nos filiales</h2>
+<ul style="font-size:16px; line-height:1.9; color:#333;">
+<li><strong>SpamEDGE Technology Limited</strong> — Services géospatiaux, d'ingénierie et de technologie numérique</li>
+<li><strong>SpamEDGE Foundation</strong> — Impact social et développement communautaire</li>
+<li><strong>SpamEDGE Chain</strong> — Actifs numériques et initiatives blockchain</li>
+</ul>
+</div><div style="background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:100px 24px; min-height:360px; display:flex; flex-direction:column; justify-content:center; margin-bottom:8px;">
+<h2 style="font-size:32px;">SpamEDGE Foundation</h2>
+<p style="max-width:600px; font-size:18px; line-height:1.8;">Notre branche d'impact social, dédiée au développement communautaire, à la sensibilisation et aux initiatives éducatives qui créent un changement positif durable.</p>
+<a href="/fr/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">EN SAVOIR PLUS</a>
+</div><div style="padding:48px 24px; max-width:800px; margin:0 auto;">
+<p style="font-size:16px; line-height:1.7; color:#333;">SPAMEDGE Foundation est une organisation animée par une mission claire : autonomiser les individus, soutenir les communautés et créer des opportunités d'impact social positif. À travers des initiatives stratégiques, des partenariats et des programmes axés sur la communauté, nous cherchons à favoriser la croissance, à promouvoir l'inclusion et à contribuer à un avenir meilleur.</p>
+</div><div style="background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:100px 24px; min-height:360px; display:flex; flex-direction:column; justify-content:center; text-align:center;">
+<h2>Prêt à travailler avec nous ?</h2>
+<a href="/fr/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content; align-self:center;">NOUS CONTACTER</a>
 </div>
