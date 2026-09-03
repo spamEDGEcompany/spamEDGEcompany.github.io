@@ -62,13 +62,13 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 <a href="/fr/" class="{% if page.lang == 'fr' %}active{% endif %}">FR</a>
 </div>
 <div class="nav-icons">
-<a href="mailto:info.spamedgdecompany@gmail.com" title="Email us">
+<a href="mailto:info.spamedgdecompany@gmail.com" title="{% if page.lang == 'fr' %}Nous écrire{% else %}Email us{% endif %}">
 <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
 </a>
-<button onclick="document.getElementById('siteSearch').classList.toggle('open')" title="Search">
+<button onclick="document.getElementById('siteSearch').classList.toggle('open')" title="{% if page.lang == 'fr' %}Rechercher{% else %}Search{% endif %}">
 <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
 </button>
-<button class="hamburger-btn" onclick="document.getElementById('mobileMenu').classList.add('open'); document.getElementById('overlay').classList.add('open');" title="Menu">
+<button class="hamburger-btn" onclick="document.getElementById('mobileMenu').classList.add('open'); document.getElementById('overlay').classList.add('open');" title="{% if page.lang == 'fr' %}Menu{% else %}Menu{% endif %}">
 <span></span><span></span><span></span>
 </button>
 </div>
