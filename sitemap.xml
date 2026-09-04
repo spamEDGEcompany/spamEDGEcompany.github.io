@@ -9,18 +9,18 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.spamedgecompany.com/</loc>
+    <loc>https://spamedgecompany.github.io/</loc>
   </url>
   <url>
-    <loc>https://www.spamedgecompany.com/about.html</loc>
+    <loc>https://spamedgecompany.github.io/about.html</loc>
   </url>
   <url>
-    <loc>https://www.spamedgecompany.com/services.html</loc>
+    <loc>https://spamedgecompany.github.io/services.html</loc>
   </url>
   <url>
-    <loc>https://www.spamedgecompany.com/projects.html</loc>
+    <loc>https://spamedgecompany.github.io/projects.html</loc>
   </url>
   <url>
-    <loc>https://www.spamedgecompany.com/contact.html</loc>
+    <loc>https://spamedgecompany.github.io/contact.html</loc>
   </url>
 </urlset>

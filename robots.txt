@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.spamedgecompany.com/sitemap.xml
+Sitemap: https://spamedgecompany.github.io/sitemap.xml
