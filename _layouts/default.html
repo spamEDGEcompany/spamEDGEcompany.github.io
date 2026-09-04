@@ -1,147 +1,64 @@
 ---
+layout: default
+title: Home
 ---
-<!DOCTYPE html>
-<html lang="{% if page.lang == 'fr' %}fr{% else %}en{% endif %}">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ page.title }} | SpamEDGE Company</title>
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<style>
-body { font-family: -apple-system, Arial, sans-serif; margin: 0; padding: 0; color: #24292e; }
-nav { background: #fff; padding: 16px 24px; display: flex; gap: 24px; align-items: center; border-bottom: 1px solid #eee; }
-nav .brand { color: #1a2b4c; font-weight: bold; font-size: 18px; margin-right: auto; }
-nav a { color: #1a2b4c; text-decoration: none; font-weight: 500; }
-nav a:hover { color: #2e7d32; }
-main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
-.lang-switch { display: flex; gap: 6px; margin-left: auto; }
-.lang-switch a { padding: 4px 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 13px; color: #1a2b4c; }
-.lang-switch a.active { background: #2e7d32; border-color: #2e7d32; color: #fff; }
-.nav-icons { display: flex; gap: 14px; align-items: center; }
-.nav-icons button, .nav-icons a { background: none; border: none; cursor: pointer; color: #1a2b4c; display: flex; align-items: center; padding: 0; }
-.nav-icons svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; }
-.search-box { display: none; position: absolute; top: 60px; right: 24px; background: #1a2b4c; padding: 10px; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.3); }
-.search-box.open { display: flex; }
-.search-box input { padding: 8px 10px; border: none; border-radius: 4px; width: 200px; }
-.hamburger-btn { background: none; border: none; cursor: pointer; display: flex; flex-direction: column; gap: 5px; padding: 4px; }
-.hamburger-btn span { width: 24px; height: 2px; background: #1a2b4c; display: block; }
-.mobile-menu { display: none; position: fixed; top: 0; right: 0; width: 280px; height: 100%; background: #fff; box-shadow: -4px 0 20px rgba(0,0,0,0.2); z-index: 100; padding: 24px; flex-direction: column; gap: 4px; }
-.mobile-menu.open { display: flex; }
-.mobile-menu a { color: #1a2b4c; text-decoration: none; padding: 14px 8px; border-bottom: 1px solid #eee; font-weight: 500; }
-.mobile-menu a:hover { color: #2e7d32; }
-.mobile-menu .close-btn { align-self: flex-end; background: none; border: none; font-size: 24px; cursor: pointer; margin-bottom: 12px; color: #1a2b4c; }
-.overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 99; }
-.overlay.open { display: block; }
-.hero-slant { position: relative; overflow: hidden; }
-.hero-slant::after { content: ""; position: absolute; bottom: -2px; left: 0; width: 100%; height: 100px; background: #fff; clip-path: polygon(0 100%, 100% 40%, 100% 100%); }
-.news-hero { position: relative; overflow: hidden; padding: 80px 20px 140px; text-align: center; background: #fff; }
-.watermark { position: absolute; bottom: -10px; left: 0; width: 100%; font-size: 18vw; font-weight: 800; color: #f2f4f7; z-index: 0; white-space: nowrap; line-height: 1; }
-.hero-content { position: relative; z-index: 1; }
-.hero-content h1 { font-size: 3rem; color: #2e7d32; margin-bottom: 40px; }
-.cta-btn { display: inline-block; background: #2e7d32; color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 0.05em; padding: 20px 50px; text-transform: uppercase; }
-.news-hero::after { content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 120px; background: #1c3a68; clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%); z-index: 0; }
-.site-footer { position: relative; background: #2e7d32; color: #fff; padding: 48px 24px 32px; margin-top: 40px; }
-.site-footer::before { content: ""; position: absolute; top: -140px; left: 0; width: 100%; height: 140px; background: #fff; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%); }
-.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px; max-width: 1000px; margin: 0 auto; }
-.footer-col a { display: block; color: #eaeaea; text-decoration: underline; margin-bottom: 10px; font-size: 14px; }
-.footer-col p { font-size: 14px; color: #e2eee3; margin: 4px 0; }
-.footer-social { display: flex; gap: 16px; }
-.footer-social a { background: transparent; border: 1.5px solid #fff; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
-.footer-social img { width: 20px; height: 20px; filter: invert(1); }
-</style>
-</head>
-<body>
-<nav style="position:relative;">
-<a href="{% if page.lang == 'fr' %}/fr/{% else %}/{% endif %}" style="display:flex; align-items:center; gap:8px; text-decoration:none;">
-<img src="/company%20logo.jpeg" alt="SpamEDGE Company" style="height:32px;">
-<span class="brand">SpamEDGE Company</span>
-</a>
-<div class="lang-switch">
-<a href="/" class="{% if page.lang != 'fr' %}active{% endif %}">EN</a>
-<a href="/fr/" class="{% if page.lang == 'fr' %}active{% endif %}">FR</a>
-</div>
-<div class="nav-icons">
-<a href="mailto:info.spamedgdecompany@gmail.com" title="{% if page.lang == 'fr' %}Nous écrire{% else %}Email us{% endif %}">
-<svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
-</a>
-<button onclick="document.getElementById('siteSearch').classList.toggle('open')" title="{% if page.lang == 'fr' %}Rechercher{% else %}Search{% endif %}">
-<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-</button>
-<button class="hamburger-btn" onclick="document.getElementById('mobileMenu').classList.add('open'); document.getElementById('overlay').classList.add('open');" title="{% if page.lang == 'fr' %}Menu{% else %}Menu{% endif %}">
-<span></span><span></span><span></span>
-</button>
-</div>
-<form class="search-box" id="siteSearch" action="https://www.google.com/search" method="get" target="_blank">
-<input type="hidden" name="sitesearch" value="spamedgecompany.github.io">
-<input type="text" name="q" placeholder="{% if page.lang == 'fr' %}Rechercher...{% else %}Search...{% endif %}">
-</form>
-</nav>
-<div class="overlay" id="overlay" onclick="document.getElementById('mobileMenu').classList.remove('open'); this.classList.remove('open');"></div>
-<div class="mobile-menu" id="mobileMenu">
-<button class="close-btn" onclick="document.getElementById('mobileMenu').classList.remove('open'); document.getElementById('overlay').classList.remove('open');">×</button>
-{% if page.lang == "fr" %}
-<a href="/fr/">Accueil</a>
-<a href="/fr/about">À propos de SpamEDGE Company</a>
-<a href="/fr/leadership">Direction</a>
-<a href="/fr/services">Services</a>
-<a href="/fr/projects">Projets</a>
-<a href="/fr/subsidiaries">Filiales</a>
-<a href="/fr/blog">Actualités</a>
-<a href="/fr/contact">Contact</a>
-{% else %}
-<a href="/">Home</a>
-<a href="/about">About SpamEDGE Company</a>
-<a href="/leadership">Leadership</a>
-<a href="/services">Services</a>
-<a href="/projects">Projects</a>
-<a href="/subsidiaries">Subsidiaries</a>
-<a href="/blog">News</a>
-<a href="/contact">Contact</a>
-{% endif %}
-</div>
-<main>
-{{ content }}
-</main>
-<footer class="site-footer">
-<div class="footer-inner">
-<div class="footer-col">
-{% if page.lang == "fr" %}
-<p>© 2026 SpamEDGE Company.</p>
-<p>Tous droits réservés.</p>
-{% else %}
-<p>© 2026 SpamEDGE Company.</p>
-<p>All rights reserved.</p>
-{% endif %}
-</div>
-<div class="footer-col">
-{% if page.lang == "fr" %}
-<a href="/fr/about">À propos</a>
-<a href="/fr/contact">Contact</a>
-<a href="/fr/services">Services</a>
-<a href="/fr/subsidiaries">Filiales</a>
-{% else %}
-<a href="/about">About Us</a>
-<a href="/contact">Contact</a>
-<a href="/services">Services</a>
-<a href="/subsidiaries">Subsidiaries</a>
-{% endif %}
-</div>
-<div class="footer-social">
-<a href="https://linkedin.com" target="_blank" title="LinkedIn">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
-</a>
-<a href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" title="Facebook">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook">
-</a>
-<a href="https://www.instagram.com/spamedgecompanyng" target="_blank" title="Instagram">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
-</a>
+
+<div class="hero-slant" style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; overflow:hidden; background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:70px 24px 160px; min-height:85vh; display:flex; flex-direction:column; justify-content:center;">
+<div style="position:absolute; left:0; bottom:0; width:55%; height:22%; background:#fff; clip-path: polygon(0 100%, 100% 100%, 0 0); z-index:1;"></div>
+<div style="position:relative; z-index:2; max-width:800px; margin:0 auto; padding:0 24px;">
+<h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
+<p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
 </div>
 </div>
-</footer>
-</body>
-</html>
+
+<div style="padding:48px 24px; max-width:800px; margin:0 auto;">
+<h2 style="color:#1a2b4c;">Building Sustainable Solutions</h2>
+<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company is a multidisciplinary and technology-driven organization committed to delivering reliable, innovative, and value-driven solutions across Geospatial, Engineering, Construction, Architecture, and Technology. We combine professional expertise, modern technologies, and practical approaches to provide solutions that meet the evolving needs of our clients and support sustainable development.
+
+Our expertise is built around Surveying and Geoinformatics, GIS, digital mapping, spatial data acquisition, engineering support, construction, architectural design, and technology solutions. By bringing these areas together, we provide integrated services that help clients plan better, make informed decisions, improve efficiency, and successfully execute their projects.
+
+At SpamEDGE, we believe that technology should make complex processes simpler, faster, more accurate, and accessible. We continuously explore innovative methods and emerging technologies to improve the way geospatial and technical services are delivered.
+
+Our commitment to precision, professionalism, innovation, integrity, and continuous improvement guides every project we undertake. We work to build lasting relationships with our clients through dependable services, effective communication, and solutions tailored to their specific requirements.
+
+As we continue to grow, our vision is to establish SpamEDGE as a trusted and forward-thinking partner in the geospatial, engineering, and technology industries, contributing to smarter infrastructure, better spatial decision-making, and meaningful technological advancement.
+
+SpamEDGE Company — Making the Geospatial World Easier Through Innovation and Technology.</p>
+</div>
+
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; min-height:60vh; display:flex; flex-direction:column; justify-content:center;">
+<div style="max-width:800px; margin:0 auto; width:100%;">
+<h2>Our Expertise</h2>
+<div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
+<div><div style="font-size:36px; font-weight:800;">5</div><div>Core Divisions</div></div>
+<div><div style="font-size:36px; font-weight:800;">3</div><div>Subsidiaries</div></div>
+<div><div style="font-size:36px; font-weight:800;">100%</div><div>Commitment to Impact</div></div>
+</div>
+</div>
+</div>
+
+<div style="padding:0 24px 48px; max-width:800px; margin:0 auto;">
+<h2 style="color:#1a2b4c;">Our Subsidiaries</h2>
+<ul style="font-size:16px; line-height:1.9; color:#333;">
+<li><strong>SpamEDGE Technology Limited</strong> — Geospatial, engineering & digital technology services</li>
+<li><strong>SpamEDGE Foundation</strong> — Social impact and community development</li>
+<li><strong>SpamEDGE Chain</strong> — Digital assets and blockchain initiatives</li>
+</ul>
+</div>
+
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:75vh; display:flex; flex-direction:column; justify-content:center;">
+<div style="max-width:800px; margin:0 auto; width:100%;">
+<h2 style="font-size:32px;">SpamEDGE Foundation</h2>
+<p style="max-width:600px; font-size:18px; line-height:1.8;">Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.</p>
+<a href="/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">LEARN MORE</a>
+</div>
+</div>
+
+<div style="padding:48px 24px; max-width:800px; margin:0 auto; text-align:center;">
+<p style="font-size:17px; line-height:1.8; color:#333;">SPAMEDGE Foundation is a purpose-driven organization committed to empowering individuals, supporting communities, and creating opportunities for positive social impact. Through strategic initiatives, partnerships, and community-focused programs, we strive to inspire growth, promote inclusivity, and contribute to a better future.</p>
+</div>
+
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; min-height:45vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+<h2>Ready to Work With Us?</h2>
+<a href="/contact" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
+</div>
