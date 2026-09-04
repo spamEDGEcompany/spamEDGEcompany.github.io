@@ -4,6 +4,9 @@ url: "https://spamedgecompany.github.io"
 baseurl: ""
 lang: "en"
 
+include:
+  - SpamEDGE_Company_Profile.pdf
+
 author:
   name: "SpamEDGE Company"
 
