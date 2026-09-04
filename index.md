@@ -3,15 +3,15 @@ layout: default
 title: Home
 ---
 
-<div class="hero-slant" style="position:relative; width:100%; align-self:stretch; box-sizing:border-box; overflow:hidden; background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:70px 24px 110px; min-height:42vh; display:flex; flex-direction:column; justify-content:center;">
+<div class="hero-slant" style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; overflow:hidden; background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:70px 24px 110px; min-height:42vh; display:flex; flex-direction:column; justify-content:center;">
 <div style="position:absolute; left:0; bottom:0; width:55%; height:18%; background:#fff; clip-path: polygon(0 100%, 100% 100%, 0 0); z-index:1;"></div>
-<div style="position:relative; z-index:2;">
+<div style="position:relative; z-index:2; max-width:800px; margin:0 auto; padding:0 24px;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
 </div>
 </div>
 
-<div style="padding:48px 24px; max-width:800px;">
+<div style="padding:48px 24px; max-width:800px; margin:0 auto;">
 <h2 style="color:#1a2b4c;">Building Sustainable Solutions</h2>
 <p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company is a multidisciplinary and technology-driven organization committed to delivering reliable, innovative, and value-driven solutions across Geospatial, Engineering, Construction, Architecture, and Technology. We combine professional expertise, modern technologies, and practical approaches to provide solutions that meet the evolving needs of our clients and support sustainable development.
 
@@ -26,7 +26,8 @@ As we continue to grow, our vision is to establish SpamEDGE as a trusted and for
 SpamEDGE Company — Making the Geospatial World Easier Through Innovation and Technology.</p>
 </div>
 
-<div style="background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px;">
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px;">
+<div style="max-width:800px; margin:0 auto;">
 <h2>Our Expertise</h2>
 <div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
 <div><div style="font-size:36px; font-weight:800;">5</div><div>Core Divisions</div></div>
@@ -34,8 +35,9 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 <div><div style="font-size:36px; font-weight:800;">100%</div><div>Commitment to Impact</div></div>
 </div>
 </div>
+</div>
 
-<div style="padding:0 24px 48px; max-width:800px;">
+<div style="padding:0 24px 48px; max-width:800px; margin:0 auto;">
 <h2 style="color:#1a2b4c;">Our Subsidiaries</h2>
 <ul style="font-size:16px; line-height:1.9; color:#333;">
 <li><strong>SpamEDGE Technology Limited</strong> — Geospatial, engineering & digital technology services</li>
@@ -44,18 +46,19 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 </ul>
 </div>
 
-<div style="background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:400px; display:flex; flex-direction:column; justify-content:center;">
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:400px; display:flex; flex-direction:column; justify-content:center;">
+<div style="max-width:800px; margin:0 auto; width:100%;">
 <h2 style="font-size:32px;">SpamEDGE Foundation</h2>
 <p style="max-width:600px; font-size:18px; line-height:1.8;">Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.</p>
 <a href="/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">LEARN MORE</a>
+</div>
 </div>
 
 <div style="padding:48px 24px; max-width:800px; margin:0 auto; text-align:center;">
 <p style="font-size:17px; line-height:1.8; color:#333;">SPAMEDGE Foundation is a purpose-driven organization committed to empowering individuals, supporting communities, and creating opportunities for positive social impact. Through strategic initiatives, partnerships, and community-focused programs, we strive to inspire growth, promote inclusivity, and contribute to a better future.</p>
 </div>
 
-<div style="background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center; width:100vw; position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center;">
 <h2>Ready to Work With Us?</h2>
 <a href="/contact" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
 </div>
-
