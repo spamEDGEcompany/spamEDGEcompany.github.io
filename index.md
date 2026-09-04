@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-<div class="hero-slant" style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; overflow:hidden; background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:70px 24px 110px; min-height:42vh; display:flex; flex-direction:column; justify-content:center;">
-<div style="position:absolute; left:0; bottom:0; width:55%; height:18%; background:#fff; clip-path: polygon(0 100%, 100% 100%, 0 0); z-index:1;"></div>
+<div class="hero-slant" style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; overflow:hidden; background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:70px 24px 160px; min-height:85vh; display:flex; flex-direction:column; justify-content:center;">
+<div style="position:absolute; left:0; bottom:0; width:55%; height:22%; background:#fff; clip-path: polygon(0 100%, 100% 100%, 0 0); z-index:1;"></div>
 <div style="position:relative; z-index:2; max-width:800px; margin:0 auto; padding:0 24px;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
@@ -26,8 +26,8 @@ As we continue to grow, our vision is to establish SpamEDGE as a trusted and for
 SpamEDGE Company — Making the Geospatial World Easier Through Innovation and Technology.</p>
 </div>
 
-<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px;">
-<div style="max-width:800px; margin:0 auto;">
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; min-height:60vh; display:flex; flex-direction:column; justify-content:center;">
+<div style="max-width:800px; margin:0 auto; width:100%;">
 <h2>Our Expertise</h2>
 <div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
 <div><div style="font-size:36px; font-weight:800;">5</div><div>Core Divisions</div></div>
@@ -46,7 +46,7 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 </ul>
 </div>
 
-<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:400px; display:flex; flex-direction:column; justify-content:center;">
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:75vh; display:flex; flex-direction:column; justify-content:center;">
 <div style="max-width:800px; margin:0 auto; width:100%;">
 <h2 style="font-size:32px;">SpamEDGE Foundation</h2>
 <p style="max-width:600px; font-size:18px; line-height:1.8;">Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.</p>
@@ -58,7 +58,7 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 <p style="font-size:17px; line-height:1.8; color:#333;">SPAMEDGE Foundation is a purpose-driven organization committed to empowering individuals, supporting communities, and creating opportunities for positive social impact. Through strategic initiatives, partnerships, and community-focused programs, we strive to inspire growth, promote inclusivity, and contribute to a better future.</p>
 </div>
 
-<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center;">
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; min-height:45vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
 <h2>Ready to Work With Us?</h2>
 <a href="/contact" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
 </div>
