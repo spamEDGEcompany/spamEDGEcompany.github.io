@@ -48,7 +48,7 @@ Learn more about the team driving SpamEDGE Company forward.
 ## Company Profile
 Download our full company profile for a detailed overview of who we are, what we do, and our leadership.
 
-[📄 Download Company Profile (PDF)](/SpamEDGE_Company_Profile.pdf)
+[Download Company Profile (PDF)](/SpamEDGE_Company_Profile.pdf)
 
 ---
 [← Back to Home](/)

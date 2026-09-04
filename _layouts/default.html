@@ -1,64 +1,708 @@
 ---
-layout: default
-title: Home
 ---
+<!DOCTYPE html>
+<html lang="{% if page.lang == 'fr' %}fr{% else %}en{% endif %}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | SpamEDGE Company</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <style>
+    :root {
+      --navy: #1a2b4c;
+      --green: #2e7d32;
+      --green-dark: #245f27;
+      --purple: #c0177c;
+      --text: #24292e;
+      --muted: #4b5563;
+      --white: #ffffff;
+      --border: #e5e7eb;
+      --soft: #f5f7fa;
+    }
 
-<div class="hero-slant" style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; overflow:hidden; background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:70px 24px 160px; min-height:85vh; display:flex; flex-direction:column; justify-content:center;">
-<div style="position:absolute; left:0; bottom:0; width:55%; height:22%; background:#fff; clip-path: polygon(0 100%, 100% 100%, 0 0); z-index:1;"></div>
-<div style="position:relative; z-index:2; max-width:800px; margin:0 auto; padding:0 24px;">
-<h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
-<p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
-</div>
-</div>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+    h1, h2, h3, h4 { margin-top: 0; color: var(--navy); }
 
-<div style="padding:48px 24px; max-width:800px; margin:0 auto;">
-<h2 style="color:#1a2b4c;">Building Sustainable Solutions</h2>
-<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company is a multidisciplinary and technology-driven organization committed to delivering reliable, innovative, and value-driven solutions across Geospatial, Engineering, Construction, Architecture, and Technology. We combine professional expertise, modern technologies, and practical approaches to provide solutions that meet the evolving needs of our clients and support sustainable development.
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #eee;
+    }
 
-Our expertise is built around Surveying and Geoinformatics, GIS, digital mapping, spatial data acquisition, engineering support, construction, architectural design, and technology solutions. By bringing these areas together, we provide integrated services that help clients plan better, make informed decisions, improve efficiency, and successfully execute their projects.
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      position: relative;
+    }
 
-At SpamEDGE, we believe that technology should make complex processes simpler, faster, more accurate, and accessible. We continuously explore innovative methods and emerging technologies to improve the way geospatial and technical services are delivered.
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 1.1rem;
+      min-width: 160px;
+    }
 
-Our commitment to precision, professionalism, innovation, integrity, and continuous improvement guides every project we undertake. We work to build lasting relationships with our clients through dependable services, effective communication, and solutions tailored to their specific requirements.
+    .brand img {
+      width: 36px;
+      height: 36px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
 
-As we continue to grow, our vision is to establish SpamEDGE as a trusted and forward-thinking partner in the geospatial, engineering, and technology industries, contributing to smarter infrastructure, better spatial decision-making, and meaningful technological advancement.
+    .main-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      flex: 1;
+      font-weight: 500;
+    }
 
-SpamEDGE Company — Making the Geospatial World Easier Through Innovation and Technology.</p>
-</div>
+    .main-nav a {
+      color: var(--navy);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
 
-<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; min-height:60vh; display:flex; flex-direction:column; justify-content:center;">
-<div style="max-width:800px; margin:0 auto; width:100%;">
-<h2>Our Expertise</h2>
-<div style="display:flex; gap:32px; flex-wrap:wrap; margin-top:24px;">
-<div><div style="font-size:36px; font-weight:800;">5</div><div>Core Divisions</div></div>
-<div><div style="font-size:36px; font-weight:800;">3</div><div>Subsidiaries</div></div>
-<div><div style="font-size:36px; font-weight:800;">100%</div><div>Commitment to Impact</div></div>
-</div>
-</div>
-</div>
+    .main-nav a:hover { color: var(--green); }
 
-<div style="padding:0 24px 48px; max-width:800px; margin:0 auto;">
-<h2 style="color:#1a2b4c;">Our Subsidiaries</h2>
-<ul style="font-size:16px; line-height:1.9; color:#333;">
-<li><strong>SpamEDGE Technology Limited</strong> — Geospatial, engineering & digital technology services</li>
-<li><strong>SpamEDGE Foundation</strong> — Social impact and community development</li>
-<li><strong>SpamEDGE Chain</strong> — Digital assets and blockchain initiatives</li>
-</ul>
-</div>
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 160px;
+      justify-content: flex-end;
+    }
 
-<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:75vh; display:flex; flex-direction:column; justify-content:center;">
-<div style="max-width:800px; margin:0 auto; width:100%;">
-<h2 style="font-size:32px;">SpamEDGE Foundation</h2>
-<p style="max-width:600px; font-size:18px; line-height:1.8;">Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.</p>
-<a href="/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">LEARN MORE</a>
-</div>
-</div>
+    .lang-switch {
+      display: flex;
+      gap: 6px;
+    }
 
-<div style="padding:48px 24px; max-width:800px; margin:0 auto; text-align:center;">
-<p style="font-size:17px; line-height:1.8; color:#333;">SPAMEDGE Foundation is a purpose-driven organization committed to empowering individuals, supporting communities, and creating opportunities for positive social impact. Through strategic initiatives, partnerships, and community-focused programs, we strive to inspire growth, promote inclusivity, and contribute to a better future.</p>
-</div>
+    .lang-switch a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 36px;
+      padding: 5px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.75rem;
+      color: var(--navy);
+      background: #fff;
+    }
 
-<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw; box-sizing:border-box; background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; min-height:45vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
-<h2>Ready to Work With Us?</h2>
-<a href="/contact" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
-</div>
+    .lang-switch a.active {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+
+    .icon-btn {
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: var(--navy);
+      width: 36px;
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .icon-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+
+    .search-box {
+      display: none;
+      position: absolute;
+      top: 72px;
+      right: 24px;
+      background: var(--navy);
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+      z-index: 10;
+    }
+
+    .search-box.open { display: flex; }
+    .search-box input {
+      width: 220px;
+      padding: 9px 12px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .hamburger-btn {
+      display: none;
+      position: fixed;
+      right: 18px;
+      top: 16px;
+      z-index: 120;
+      width: 44px;
+      height: 44px;
+      border: 1px solid rgba(26,43,76,0.3);
+      border-radius: 50%;
+      background: rgba(255,255,255,0.9);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      cursor: pointer;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .hamburger-btn span {
+      width: 18px;
+      height: 2px;
+      background: var(--navy);
+      display: block;
+      border-radius: 2px;
+    }
+
+    .mobile-menu {
+      position: fixed;
+      top: 0;
+      right: -320px;
+      width: min(300px, 86vw);
+      height: 100vh;
+      background: #fff;
+      box-shadow: -5px 0 18px rgba(0,0,0,0.2);
+      z-index: 110;
+      display: flex;
+      flex-direction: column;
+      padding: 24px 18px;
+      transition: right 0.25s ease;
+    }
+
+    .mobile-menu.open { right: 0; }
+    .mobile-menu .close-btn {
+      align-self: flex-end;
+      background: none;
+      border: none;
+      font-size: 2rem;
+      color: var(--navy);
+      cursor: pointer;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .mobile-menu a {
+      color: var(--navy);
+      text-decoration: none;
+      padding: 14px 8px;
+      border-bottom: 1px solid #eee;
+      font-weight: 500;
+    }
+
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.38);
+      z-index: 100;
+    }
+    .overlay.open { display: block; }
+
+    main {
+      line-height: 1.7;
+    }
+
+    .page-shell {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 64px;
+    }
+
+    .main-copy {
+      max-width: 900px;
+      margin: 0 auto;
+      padding-top: 32px;
+    }
+
+    .main-copy p,
+    .main-copy li {
+      font-size: 1.03rem;
+      color: #333;
+    }
+
+    .hero-section {
+      position: relative;
+      min-height: 620px;
+      display: flex;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      overflow: hidden;
+      border-bottom: none;
+    }
+
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45));
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 90px 24px;
+    }
+
+    .hero-inner h1 {
+      max-width: 760px;
+      margin: 0 0 18px;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      line-height: 1.06;
+      color: #fff;
+    }
+
+    .hero-inner p {
+      max-width: 620px;
+      margin: 0;
+      font-size: 1.15rem;
+      opacity: 0.96;
+      color: #fff;
+    }
+
+    .info-section {
+      padding: 56px 0 42px;
+    }
+
+    .info-section .inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .info-section p,
+    .info-section li {
+      font-size: 1.03rem;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    .cta-link {
+      color: var(--purple);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .expertise-panel {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      min-height: 420px;
+      display: flex;
+      align-items: center;
+    }
+
+    .expertise-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5));
+    }
+
+    .expertise-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    .expertise-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 28px;
+      margin-top: 24px;
+    }
+
+    .stat-box {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 14px;
+      padding: 24px 18px;
+      text-align: left;
+    }
+
+    .stat-box .value {
+      font-size: clamp(2.1rem, 4vw, 3rem);
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+
+    .foundation-panel {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      min-height: 420px;
+      display: flex;
+      align-items: center;
+    }
+
+    .foundation-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6));
+    }
+
+    .foundation-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    .foundation-inner h2,
+    .foundation-inner p,
+    .expertise-inner h2,
+    .cta-panel h2 {
+      color: #fff;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--green);
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 30px;
+      border-radius: 999px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .button.light {
+      background: #fff;
+      color: var(--green);
+    }
+
+    .button.purple {
+      background: var(--purple);
+      color: #fff;
+    }
+
+    .cta-panel {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 260px;
+      padding: 40px 24px;
+    }
+
+    .cta-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55));
+    }
+
+    .cta-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .site-footer {
+      position: relative;
+      background: var(--green);
+      color: #fff;
+      padding: 58px 24px 28px;
+    }
+
+    .site-footer::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -120px;
+      height: 120px;
+      background: #fff;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%);
+    }
+
+    .footer-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 34px;
+      flex-wrap: wrap;
+    }
+
+    .footer-col a {
+      display: block;
+      color: #eaf5eb;
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    .footer-col p {
+      margin: 4px 0;
+      color: #ecf7ee;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .footer-social a {
+      width: 42px;
+      height: 42px;
+      border: 1.5px solid rgba(255,255,255,0.8);
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-social img {
+      width: 20px;
+      height: 20px;
+      filter: invert(1);
+    }
+
+    @media (max-width: 900px) {
+      .main-nav { display: none; }
+      .hamburger-btn { display: inline-flex; }
+      .brand { min-width: 0; }
+      .nav-actions { min-width: 0; }
+      .nav-inner { padding-left: 18px; padding-right: 68px; }
+    }
+
+    @media (max-width: 640px) {
+      .hero-inner, .expertise-inner, .foundation-inner, .footer-inner, .page-shell, .info-section .inner {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .hero-section { min-height: 520px; }
+      .expertise-grid { grid-template-columns: 1fr; }
+      .lang-switch { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="{% if page.lang == 'fr' %}/fr/{% else %}/{% endif %}">
+        <img src="/company%20logo.jpeg" alt="SpamEDGE Company">
+        <span>SpamEDGE Company</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        {% if page.lang == "fr" %}
+        <a href="/fr/">Accueil</a>
+        <a href="/fr/about">À propos</a>
+        <a href="/fr/leadership">Direction</a>
+        <a href="/fr/services">Services</a>
+        <a href="/fr/projects">Projets</a>
+        <a href="/fr/subsidiaries">Filiales</a>
+        <a href="/fr/blog">Actualités</a>
+        <a href="/fr/contact">Contact</a>
+        {% else %}
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/leadership">Leadership</a>
+        <a href="/services">Services</a>
+        <a href="/projects">Projects</a>
+        <a href="/subsidiaries">Subsidiaries</a>
+        <a href="/blog">News</a>
+        <a href="/contact">Contact</a>
+        {% endif %}
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <a href="/" class="{% if page.lang != 'fr' %}active{% endif %}">EN</a>
+          <a href="/fr/" class="{% if page.lang == 'fr' %}active{% endif %}">FR</a>
+        </div>
+
+        <a class="icon-btn" href="mailto:info.spamedgdecompany@gmail.com" title="{% if page.lang == 'fr' %}Nous écrire{% else %}Email us{% endif %}" aria-label="{% if page.lang == 'fr' %}Nous écrire{% else %}Email us{% endif %}">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"></path><path d="m22 6-10 7L2 6"></path></svg>
+        </a>
+
+        <button class="icon-btn" type="button" id="searchToggle" aria-label="{% if page.lang == 'fr' %}Rechercher{% else %}Search{% endif %}" title="{% if page.lang == 'fr' %}Rechercher{% else %}Search{% endif %}">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+        </button>
+      </div>
+
+      <form class="search-box" id="siteSearch" action="https://www.google.com/search" method="get" target="_blank">
+        <input type="hidden" name="sitesearch" value="spamedgecompany.github.io">
+        <input type="text" name="q" placeholder="{% if page.lang == 'fr' %}Rechercher...{% else %}Search...{% endif %}">
+      </form>
+    </div>
+  </header>
+
+  <button class="hamburger-btn" id="mobileMenuToggle" type="button" aria-label="Open menu" title="Menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="overlay" id="overlay"></div>
+
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+    <button class="close-btn" id="closeMobileMenu" type="button" aria-label="Close menu">×</button>
+    {% if page.lang == "fr" %}
+    <a href="/fr/">Accueil</a>
+    <a href="/fr/about">À propos de SpamEDGE Company</a>
+    <a href="/fr/leadership">Direction</a>
+    <a href="/fr/services">Services</a>
+    <a href="/fr/projects">Projets</a>
+    <a href="/fr/subsidiaries">Filiales</a>
+    <a href="/fr/blog">Actualités</a>
+    <a href="/fr/contact">Contact</a>
+    {% else %}
+    <a href="/">Home</a>
+    <a href="/about">About SpamEDGE Company</a>
+    <a href="/leadership">Leadership</a>
+    <a href="/services">Services</a>
+    <a href="/projects">Projects</a>
+    <a href="/subsidiaries">Subsidiaries</a>
+    <a href="/blog">News</a>
+    <a href="/contact">Contact</a>
+    {% endif %}
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        {% if page.lang == "fr" %}
+        <p>© 2026 SpamEDGE Company.</p>
+        <p>Tous droits réservés.</p>
+        {% else %}
+        <p>© 2026 SpamEDGE Company.</p>
+        <p>All rights reserved.</p>
+        {% endif %}
+      </div>
+
+      <div class="footer-col">
+        {% if page.lang == "fr" %}
+        <a href="/fr/about">À propos</a>
+        <a href="/fr/contact">Contact</a>
+        <a href="/fr/services">Services</a>
+        <a href="/fr/subsidiaries">Filiales</a>
+        {% else %}
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact</a>
+        <a href="/services">Services</a>
+        <a href="/subsidiaries">Subsidiaries</a>
+        {% endif %}
+      </div>
+
+      <div class="footer-social">
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer" title="LinkedIn" aria-label="LinkedIn">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" rel="noreferrer" title="Facebook" aria-label="Facebook">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/spamedgecompanyng" target="_blank" rel="noreferrer" title="Instagram" aria-label="Instagram">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const mobileMenu = document.getElementById('mobileMenu');
+    const overlay = document.getElementById('overlay');
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const closeMobileMenu = document.getElementById('closeMobileMenu');
+    const searchToggle = document.getElementById('searchToggle');
+    const siteSearch = document.getElementById('siteSearch');
+
+    function closeMenu() {
+      if (mobileMenu) mobileMenu.classList.remove('open');
+      if (overlay) overlay.classList.remove('open');
+    }
+
+    if (mobileMenuToggle) {
+      mobileMenuToggle.addEventListener('click', function () {
+        mobileMenu.classList.toggle('open');
+        overlay.classList.toggle('open');
+      });
+    }
+
+    if (closeMobileMenu) {
+      closeMobileMenu.addEventListener('click', closeMenu);
+    }
+
+    if (overlay) {
+      overlay.addEventListener('click', function () {
+        closeMenu();
+        if (siteSearch) siteSearch.classList.remove('open');
+      });
+    }
+
+    if (searchToggle && siteSearch) {
+      searchToggle.addEventListener('click', function () {
+        siteSearch.classList.toggle('open');
+        if (mobileMenu) mobileMenu.classList.remove('open');
+        if (overlay) overlay.classList.toggle('open', siteSearch.classList.contains('open'));
+      });
+    }
+  </script>
+</body>
+</html>
