@@ -36,17 +36,19 @@ main { max-width: 800px; margin: 0 auto; padding: 32px 24px; line-height: 1.6; }
 .mobile-menu .close-btn { align-self: flex-end; background: none; border: none; font-size: 24px; cursor: pointer; margin-bottom: 12px; color: #1a2b4c; }
 .overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 99; }
 .overlay.open { display: block; }
+.hero-slant { position: relative; overflow: hidden; }
+.hero-slant::after { content: ""; position: absolute; bottom: -2px; left: 0; width: 100%; height: 100px; background: #fff; clip-path: polygon(0 100%, 100% 40%, 100% 100%); }
 .news-hero { position: relative; overflow: hidden; padding: 80px 20px 140px; text-align: center; background: #fff; }
 .watermark { position: absolute; bottom: -10px; left: 0; width: 100%; font-size: 18vw; font-weight: 800; color: #f2f4f7; z-index: 0; white-space: nowrap; line-height: 1; }
 .hero-content { position: relative; z-index: 1; }
 .hero-content h1 { font-size: 3rem; color: #2e7d32; margin-bottom: 40px; }
 .cta-btn { display: inline-block; background: #2e7d32; color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 0.05em; padding: 20px 50px; text-transform: uppercase; }
 .news-hero::after { content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 120px; background: #1c3a68; clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%); z-index: 0; }
-.site-footer { position: relative; background: #1a2b4c; color: #fff; padding: 48px 24px 32px; margin-top: 40px; }
+.site-footer { position: relative; background: #2e7d32; color: #fff; padding: 48px 24px 32px; margin-top: 40px; }
 .site-footer::before { content: ""; position: absolute; top: -140px; left: 0; width: 100%; height: 140px; background: #fff; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 20%); }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px; max-width: 1000px; margin: 0 auto; }
 .footer-col a { display: block; color: #eaeaea; text-decoration: underline; margin-bottom: 10px; font-size: 14px; }
-.footer-col p { font-size: 14px; color: #cfd6e4; margin: 4px 0; }
+.footer-col p { font-size: 14px; color: #e2eee3; margin: 4px 0; }
 .footer-social { display: flex; gap: 16px; }
 .footer-social a { background: transparent; border: 1.5px solid #fff; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
 .footer-social img { width: 20px; height: 20px; filter: invert(1); }
