@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="hero-slant" style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px 160px;">
+<div class="hero-slant" style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px 220px; min-height:70vh; display:flex; flex-direction:column; justify-content:center;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
 </div>
