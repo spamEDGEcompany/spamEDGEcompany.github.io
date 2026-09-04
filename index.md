@@ -3,9 +3,12 @@ layout: default
 title: Home
 ---
 
-<div class="hero-slant" style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px 220px; min-height:70vh; display:flex; flex-direction:column; justify-content:center;">
+<div class="hero-slant" style="position:relative; background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); background-size: cover; background-position: center; color:#fff; padding:100px 24px 220px; min-height:70vh; display:flex; flex-direction:column; justify-content:center; overflow:hidden;">
+<div style="position:absolute; left:0; bottom:0; width:60%; height:110px; background:#fff; clip-path: polygon(0 100%, 100% 100%, 0 0); z-index:1;"></div>
+<div style="position:relative; z-index:2;">
 <h1 style="font-size:38px; font-weight:800; margin:0 0 16px;">Engineering Precision, Building the Future</h1>
 <p style="max-width:600px; font-size:17px; opacity:0.9;">Building solutions across geospatial technology, engineering, construction, architecture and digital innovation.</p>
+</div>
 </div>
 
 <div style="padding:48px 24px; max-width:800px;">
