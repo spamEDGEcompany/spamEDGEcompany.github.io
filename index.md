@@ -51,7 +51,7 @@ SpamEDGE Company — Making the Geospatial World Easier Through Innovation and T
 <p style="font-size:17px; line-height:1.8; color:#333;">SPAMEDGE Foundation is a purpose-driven organization committed to empowering individuals, supporting communities, and creating opportunities for positive social impact. Through strategic initiatives, partnerships, and community-focused programs, we strive to inspire growth, promote inclusivity, and contribute to a better future.</p>
 </div>
 
-<div style="background:#2e7d32; color:#fff; padding:64px 24px; text-align:center;">
+<div style="background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center; width:100vw; position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
 <h2>Ready to Work With Us?</h2>
 <a href="/contact" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">GET IN TOUCH</a>
 </div>
