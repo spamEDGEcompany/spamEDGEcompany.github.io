@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <input id="chatQuestion" type="text" placeholder="${isFrench ? 'Écrivez votre question...' : 'Type your question...'}" autocomplete="off" required />
         <button class="chat-send" type="submit" aria-label="${isFrench ? 'Envoyer' : 'Send'}">→</button>
       </form>
-      <a class="chat-agent-link" href="${isFrench ? '/fr/contact' : '/contact'}">${isFrench ? 'Parler à un agent' : 'Talk to an agent'} <span aria-hidden="true">→</span></a>
+      <a class="chat-agent-link" href="https://wa.me/message/O6U65JGWCJNQP1" target="_blank" rel="noreferrer">${isFrench ? 'Parler à un agent sur WhatsApp' : 'Talk to an agent on WhatsApp'} <span aria-hidden="true">→</span></a>
     </div>
   `;
   document.body.appendChild(chat);
