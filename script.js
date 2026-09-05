@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   subscriptionPopup.className = 'subscription-popup';
   subscriptionPopup.setAttribute('aria-label', 'Latest news subscription');
   subscriptionPopup.innerHTML = `
-    <button class="subscription-close" type="button" aria-label="Close subscription popup">&times;</button>
     <p class="subscription-kicker">Stay informed</p>
     <h2>Hear our latest news</h2>
     <p>Subscribe for company updates, project news, and new opportunities from SpamEDGE Company.</p>
@@ -24,13 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   `;
   document.body.appendChild(subscriptionPopup);
 
-  const popupDismissedKey = 'spamedge-newsletter-dismissed';
-  const closeSubscription = () => {
-    subscriptionPopup.classList.remove('open');
-    window.localStorage.setItem(popupDismissedKey, 'true');
-  };
-
-  subscriptionPopup.querySelector('.subscription-close').addEventListener('click', closeSubscription);
   subscriptionPopup.querySelector('.subscription-form').addEventListener('submit', async (event) => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -64,10 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
       submitButton.disabled = false;
     }
   });
-
-  if (!window.localStorage.getItem(popupDismissedKey)) {
-    window.setTimeout(() => subscriptionPopup.classList.add('open'), 1800);
-  }
 
   const isFrench = window.location.pathname.startsWith('/fr');
   const chat = document.createElement('section');

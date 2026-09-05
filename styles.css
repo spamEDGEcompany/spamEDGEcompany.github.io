@@ -740,27 +740,14 @@ ul.clean-list li { margin: 10px 0; }
 }
 
 .subscription-popup {
-  position: fixed;
-  right: 24px;
-  bottom: 98px;
-  z-index: 140;
-  width: min(420px, calc(100vw - 36px));
+  width: min(900px, calc(100% - 48px));
+  margin: 32px auto;
   padding: 28px 28px 24px;
   background: #fff;
   border: 1px solid rgba(47,125,74,0.2);
   border-top: 7px solid var(--green);
   border-radius: 4px 24px 4px 24px;
   box-shadow: 0 18px 46px rgba(23,61,43,0.22);
-  transform: translateY(calc(100% + 40px));
-  opacity: 0;
-  pointer-events: none;
-  transition: transform 0.35s ease, opacity 0.35s ease;
-}
-
-.subscription-popup.open {
-  transform: translateY(0);
-  opacity: 1;
-  pointer-events: auto;
 }
 
 .subscription-close {
@@ -1083,8 +1070,6 @@ ul.clean-list li { margin: 10px 0; }
   }
 
   .subscription-popup {
-    right: 12px;
-    bottom: 84px;
     width: calc(100vw - 24px);
     padding: 24px 20px 18px;
   }
