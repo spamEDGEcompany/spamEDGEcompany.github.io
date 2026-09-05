@@ -10,16 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
   subscriptionPopup.className = 'subscription-popup';
   subscriptionPopup.setAttribute('aria-label', 'Latest news subscription');
   subscriptionPopup.innerHTML = `
-    <p class="latest-news-kicker">${window.location.pathname.startsWith('/fr') ? 'Dernières nouvelles' : 'Latest news'}</p>
-    <a class="latest-news-link" href="/posts/2026-07-16-new-project.html">${window.location.pathname.startsWith('/fr') ? 'Leadership et gouvernance d’entreprise' : 'Leadership and Corporate Governance'} <span aria-hidden="true">→</span></a>
-    <p class="subscription-kicker">Stay informed</p>
-    <h2>Hear our latest news</h2>
-    <p>Subscribe for company updates, project news, and new opportunities from SpamEDGE Company.</p>
+    <p class="subscription-kicker">${window.location.pathname.startsWith('/fr') ? 'Newsletter' : 'Newsletter'}</p>
+    <h2>${window.location.pathname.startsWith('/fr') ? 'Abonnez-vous à notre newsletter' : 'Subscribe to our Newsletter & Events'}</h2>
+    <p>${window.location.pathname.startsWith('/fr') ? 'Inscrivez-vous maintenant pour recevoir nos actualités et événements.' : 'Subscribe now to receive our latest news and events.'}</p>
     <form class="subscription-form" action="https://formspree.io/f/mqpklwoa" method="POST" novalidate>
       <label class="sr-only" for="subscriptionEmail">Email address</label>
-      <input id="subscriptionEmail" name="email" type="email" placeholder="Your email address" autocomplete="email" required />
+      <input id="subscriptionEmail" name="email" type="email" placeholder="Email" autocomplete="email" required />
       <input type="hidden" name="_subject" value="New SpamEDGE newsletter subscription" />
-      <button class="button" type="submit">Subscribe</button>
+      <button class="button" type="submit" aria-label="Submit email">→</button>
       <p class="subscription-message" role="status" aria-live="polite"></p>
     </form>
   `;

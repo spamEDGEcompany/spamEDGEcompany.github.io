@@ -740,54 +740,16 @@ ul.clean-list li { margin: 10px 0; }
 }
 
 .subscription-popup {
-  width: min(900px, calc(100% - 48px));
-  margin: 32px auto;
-  padding: 28px 28px 24px;
-  background: var(--green-dark);
-  border: 1px solid var(--green-dark);
-  border-top: 7px solid #a9d9b6;
-  border-radius: 4px 24px 4px 24px;
-  box-shadow: 0 18px 46px rgba(23,61,43,0.22);
-}
-
-.latest-news-kicker {
-  margin: 0 0 4px;
-  color: #a9d9b6;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.latest-news-link {
-  display: inline-block;
-  margin-bottom: 18px;
+  width: 100%;
+  margin: 0;
+  padding: 58px max(24px, 8vw) 64px;
+  background: #100b72;
   color: #fff;
-  font-size: 1.12rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.latest-news-link:hover { text-decoration: underline; }
-
-.subscription-close {
-  position: absolute;
-  top: 12px;
-  right: 14px;
-  width: 30px;
-  height: 30px;
-  border: 0;
-  border-radius: 50%;
-  background: #eef5ef;
-  color: var(--navy);
-  font-size: 1.2rem;
-  line-height: 1;
-  cursor: pointer;
 }
 
 .subscription-kicker {
   margin: 0 0 4px;
-  color: var(--green);
+  color: #fff;
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.12em;
@@ -795,30 +757,32 @@ ul.clean-list li { margin: 10px 0; }
 }
 
 .subscription-popup h2 {
-  margin: 0 34px 8px 0;
+  margin: 0 0 12px;
   color: #fff;
-  font-size: 1.45rem;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
   line-height: 1.15;
 }
 
-.subscription-popup > p:not(.subscription-kicker):not(.latest-news-kicker) {
-  margin: 0 0 16px;
-  color: #e2f0e5;
-  font-size: 0.92rem;
-  line-height: 1.5;
+.subscription-popup > p:not(.subscription-kicker) {
+  max-width: 560px;
+  margin: 0 0 24px;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .subscription-form {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 8px;
+  display: flex;
+  max-width: 520px;
+  gap: 0;
 }
 
 .subscription-form input {
+  flex: 1;
   min-width: 0;
-  padding: 12px 13px;
-  border: 1px solid #c9d9cc;
-  border-radius: 3px 12px 3px 12px;
+  padding: 16px 18px;
+  border: 0;
+  border-radius: 0;
   color: var(--navy);
   font: inherit;
 }
@@ -829,14 +793,17 @@ ul.clean-list li { margin: 10px 0; }
 }
 
 .subscription-form .button {
+  width: 64px;
   border: 0;
+  border-radius: 0;
   padding: 11px 16px;
+  background: #e10600;
+  color: #fff;
   cursor: pointer;
-  font: inherit;
+  font-size: 1.8rem;
 }
 
 .subscription-message {
-  grid-column: 1 / -1;
   min-height: 1.2em;
   margin: 0;
   color: #c9ebd0;
@@ -1090,8 +1057,8 @@ ul.clean-list li { margin: 10px 0; }
   }
 
   .subscription-popup {
-    width: calc(100vw - 24px);
-    padding: 24px 20px 18px;
+    width: 100%;
+    padding: 42px 20px 48px;
   }
 
   .customer-chat {
