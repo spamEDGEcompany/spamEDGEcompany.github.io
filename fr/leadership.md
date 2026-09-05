@@ -12,6 +12,7 @@ lang: fr
 
 **Amusa Abdullahi Akintayo**
 *Fondateur et Directeur Général, SpamEDGE Company*
+[amusaabdullahia@gmail.com](mailto:amusaabdullahia@gmail.com)
 
 Amusa Abdullahi Akintayo est le Fondateur et Directeur Général de SpamEDGE Company, une entreprise multidisciplinaire axée sur la fourniture de solutions innovantes en géospatial, ingénierie, construction, architecture et technologie.
 
