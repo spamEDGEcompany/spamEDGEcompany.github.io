@@ -10,19 +10,27 @@ document.addEventListener('DOMContentLoaded', () => {
   subscriptionPopup.className = 'subscription-popup';
   subscriptionPopup.setAttribute('aria-label', 'Latest news subscription');
   subscriptionPopup.innerHTML = `
-    <p class="subscription-kicker">${window.location.pathname.startsWith('/fr') ? 'Newsletter' : 'Newsletter'}</p>
-    <h2>${window.location.pathname.startsWith('/fr') ? 'Abonnez-vous à notre newsletter' : 'Subscribe to our Newsletter & Events'}</h2>
-    <p>${window.location.pathname.startsWith('/fr') ? 'Inscrivez-vous maintenant pour recevoir nos actualités et événements.' : 'Subscribe now to receive our latest news and events.'}</p>
+    <button class="subscription-close" type="button" aria-label="Close subscription popup">&times;</button>
+    <p class="subscription-kicker">Stay informed</p>
+    <h2>Hear our latest news</h2>
+    <p>Subscribe for company updates, project news, and new opportunities from SpamEDGE Company.</p>
     <form class="subscription-form" action="https://formspree.io/f/mqpklwoa" method="POST" novalidate>
       <label class="sr-only" for="subscriptionEmail">Email address</label>
-      <input id="subscriptionEmail" name="email" type="email" placeholder="Email" autocomplete="email" required />
+      <input id="subscriptionEmail" name="email" type="email" placeholder="Your email address" autocomplete="email" required />
       <input type="hidden" name="_subject" value="New SpamEDGE newsletter subscription" />
-      <button class="button" type="submit" aria-label="Submit email">→</button>
+      <button class="button" type="submit">Subscribe</button>
       <p class="subscription-message" role="status" aria-live="polite"></p>
     </form>
   `;
   document.body.appendChild(subscriptionPopup);
 
+  const popupDismissedKey = 'spamedge-newsletter-dismissed';
+  const closeSubscription = () => {
+    subscriptionPopup.classList.remove('open');
+    window.localStorage.setItem(popupDismissedKey, 'true');
+  };
+
+  subscriptionPopup.querySelector('.subscription-close').addEventListener('click', closeSubscription);
   subscriptionPopup.querySelector('.subscription-form').addEventListener('submit', async (event) => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -56,6 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
       submitButton.disabled = false;
     }
   });
+
+  if (!window.localStorage.getItem(popupDismissedKey)) {
+    window.setTimeout(() => subscriptionPopup.classList.add('open'), 1800);
+  }
 
   const isFrench = window.location.pathname.startsWith('/fr');
   const chat = document.createElement('section');
