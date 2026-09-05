@@ -10,10 +10,10 @@ lang: fr
 Lagos, Nigéria
 
 📞 **Téléphone**
-0915 806 8973
+[0915 806 8973](tel:09158068973)
 
 📧 **Email**
-info.spamedgdecompany@gmail.com
+[info.spamedgdecompany@gmail.com](mailto:info.spamedgdecompany@gmail.com)
 
 💬 **WhatsApp**
 [Discuter sur WhatsApp](https://wa.me/message/O6U65JGWCJNQP1)
