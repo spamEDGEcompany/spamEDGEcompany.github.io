@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   subscriptionPopup.className = 'subscription-popup';
   subscriptionPopup.setAttribute('aria-label', 'Latest news subscription');
   subscriptionPopup.innerHTML = `
+    <p class="latest-news-kicker">${window.location.pathname.startsWith('/fr') ? 'Dernières nouvelles' : 'Latest news'}</p>
+    <a class="latest-news-link" href="/posts/2026-07-16-new-project.html">${window.location.pathname.startsWith('/fr') ? 'Leadership et gouvernance d’entreprise' : 'Leadership and Corporate Governance'} <span aria-hidden="true">→</span></a>
     <p class="subscription-kicker">Stay informed</p>
     <h2>Hear our latest news</h2>
     <p>Subscribe for company updates, project news, and new opportunities from SpamEDGE Company.</p>
