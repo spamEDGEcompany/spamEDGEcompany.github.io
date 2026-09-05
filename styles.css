@@ -162,6 +162,14 @@ img {
   stroke-width: 2;
 }
 
+.whatsapp-button {
+  color: #168c4b;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .search-box {
   display: none;
   position: absolute;

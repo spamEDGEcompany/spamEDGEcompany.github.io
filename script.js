@@ -6,6 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeButton = document.getElementById('closeMenu');
   const searchToggle = document.getElementById('searchToggle');
 
+  if (searchToggle) {
+    const whatsappButton = document.createElement('a');
+    whatsappButton.className = `${searchToggle.classList.contains('icon-btn') ? 'icon-btn' : 'icon-button'} whatsapp-button`;
+    whatsappButton.href = 'https://wa.me/message/O6U65JGWCJNQP1';
+    whatsappButton.textContent = 'WA';
+    whatsappButton.title = 'WhatsApp agent';
+    whatsappButton.setAttribute('aria-label', 'Chat with us on WhatsApp');
+    searchToggle.parentNode.insertBefore(whatsappButton, searchToggle);
+  }
+
   const subscriptionPopup = document.createElement('aside');
   subscriptionPopup.className = 'subscription-popup';
   subscriptionPopup.setAttribute('aria-label', 'Latest news subscription');
