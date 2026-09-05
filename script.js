@@ -10,16 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     languageLink.href = new URL(languageLink.getAttribute('href'), 'https://spamedgecompany.github.io/').href;
   });
 
-  if (searchToggle) {
-    const whatsappButton = document.createElement('a');
-    whatsappButton.className = `${searchToggle.classList.contains('icon-btn') ? 'icon-btn' : 'icon-button'} whatsapp-button`;
-    whatsappButton.href = 'https://wa.me/message/O6U65JGWCJNQP1';
-    whatsappButton.textContent = 'WA';
-    whatsappButton.title = 'WhatsApp agent';
-    whatsappButton.setAttribute('aria-label', 'Chat with us on WhatsApp');
-    searchToggle.parentNode.insertBefore(whatsappButton, searchToggle);
-  }
-
   const subscriptionPopup = document.createElement('aside');
   subscriptionPopup.className = 'subscription-popup';
   subscriptionPopup.setAttribute('aria-label', 'Latest news subscription');
