@@ -2,9 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenu = document.getElementById('mobileMenu');
   const overlay = document.getElementById('overlay');
   const searchBox = document.getElementById('siteSearch');
-  const menuButton = document.getElementById('menuButton');
-  const closeButton = document.getElementById('closeMenu');
+  const menuButton = document.getElementById('menuButton') || document.getElementById('mobileMenuToggle');
+  const closeButton = document.getElementById('closeMenu') || document.getElementById('closeMobileMenu');
   const searchToggle = document.getElementById('searchToggle');
+
+  document.querySelectorAll('.lang-switch a').forEach((languageLink) => {
+    languageLink.href = new URL(languageLink.getAttribute('href'), 'https://spamedgecompany.github.io/').href;
+  });
 
   if (searchToggle) {
     const whatsappButton = document.createElement('a');
