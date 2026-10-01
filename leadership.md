@@ -13,7 +13,7 @@ title: Leadership
 *Founder & MD, SpamEDGE Company*
 [amusaabdullahia@gmail.com](mailto:amusaabdullahia@gmail.com)
 
-Amusa Abdullahi Akintayo is the Founder and Chief Executive Officer of SpamEDGE Company, a multidisciplinary company focused on delivering innovative solutions across Geospatial, Engineering, Construction, Architecture, and Technology.
+Amusa Abdullahi Akintayo is the Founder and Chief Executive Officer of SpamEDGE Company, a multidisciplinary company focused on delivering innovative solutions across Geospatial, Engineering, Construction, and Technology.
 
 He is a graduate of the Federal University of Technology, Minna, where he studied Surveying and Geoinformatics and obtained a Bachelor of Technology (B.Tech.) degree in Surveying and Geoinformatics.
 

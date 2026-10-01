@@ -6,7 +6,7 @@ lang: fr
 
 # Nos Services
 
-SpamEDGE Company propose un large éventail de services à travers quatre divisions principales.
+SpamEDGE Company propose un large éventail de services à travers cinq divisions principales.
 
 ## 🌍 Géospatial et Topographie
 - Levés Terrestres
@@ -24,16 +24,15 @@ SpamEDGE Company propose un large éventail de services à travers quatre divisi
 - Conseil en Ingénierie
 - Travaux Côtiers/Littoraux
 
-## 🏛️ Architecture et Design
-- Conception Architecturale
-- Modélisation 3D
-- Conception de Bâtiments
-- Services CAO
-
 ## 💻 Technologie
 - Solutions Numériques/Logicielles
 - Technologie Géospatiale
 - Gestion des Données
 - Cartographie Numérique
+
+## ₿ Actifs Numériques
+- Cryptomonnaies et Plateformes d'Échange
+- Blockchain et Web3
+- Services d'Investissement et d'Actifs Numériques
 
 ---

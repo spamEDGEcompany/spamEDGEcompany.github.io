@@ -8,7 +8,7 @@ lang: fr
 
 ## Un partenaire technologique offrant précision et solutions innovantes
 
-SpamEDGE Company est une entreprise multidisciplinaire proposant des solutions intégrées en géospatial, ingénierie, construction, architecture et technologie. Nous nous engageons à simplifier les processus techniques complexes, à les rendre plus efficaces et accessibles grâce à l'application efficace de la technologie moderne et de l'expertise professionnelle.
+SpamEDGE Company est une entreprise multidisciplinaire proposant des solutions intégrées en géospatial, ingénierie, construction et technologie. Nous nous engageons à simplifier les processus techniques complexes, à les rendre plus efficaces et accessibles grâce à l'application efficace de la technologie moderne et de l'expertise professionnelle.
 
 Nous opérons avec un sens aigu de la précision, du professionnalisme, de l'innovation et de la responsabilité, en construisant des solutions autour des besoins de nos clients et des communautés que nous servons. Notre approche combine connaissances techniques et technologies émergentes pour fournir des solutions pratiques, fiables et à forte valeur ajoutée sur divers projets.
 

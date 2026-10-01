@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bibliothèque de prompts | SpamEDGE Company</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .prompt-intro {
+        margin-bottom: 28px;
+        padding: 18px 22px;
+        background: #f4f8f5;
+        border-left: 5px solid var(--green);
+        border-radius: 0 16px 0 16px;
+      }
+
+      .prompt-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 22px;
+      }
+
+      .prompt-card {
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+      }
+
+      .prompt-card h3 {
+        margin: 0 0 10px;
+        color: var(--navy);
+        font-size: 1.15rem;
+      }
+
+      .prompt-card p {
+        margin: 0 0 12px;
+        color: #4b5563;
+      }
+
+      .prompt-card pre {
+        margin: 0;
+        padding: 14px 16px;
+        background: #0f172a;
+        color: #e2e8f0;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="navbar" style="position:relative;">
+        <div class="brand">
+          <img src="/company%20logo.jpeg" alt="SpamEDGE Company" />
+          <span>SpamEDGE Company</span>
+        </div>
+        <nav class="nav-links" aria-label="Navigation principale">
+          <a href="/fr/">Accueil</a>
+          <a href="/fr/about.html">À propos</a>
+          <a href="/fr/leadership.html">Direction</a>
+          <a href="/fr/services.html">Services</a>
+          <a href="/fr/projects.html">Projets</a>
+          <a href="/fr/subsidiaries.html">Filiales</a>
+          <a href="/fr/blog.html">Actualités</a>
+          <a href="/fr/contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <div class="lang-switch">
+            <a href="/prompts/">EN</a>
+            <a href="/fr/prompts/" class="active">FR</a>
+          </div>
+          <button class="icon-button" id="searchToggle" type="button" title="Rechercher" aria-label="Rechercher">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          </button>
+          <button class="icon-button hamburger" id="menuButton" type="button" title="Menu" aria-label="Ouvrir le menu">
+            <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+          </button>
+        </div>
+        <form class="search-box" id="siteSearch" action="https://www.google.com/search" method="get" target="_blank">
+          <input type="hidden" name="sitesearch" value="spamedgecompany.github.io" />
+          <input type="text" name="q" placeholder="Rechercher..." />
+        </form>
+      </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Menu mobile">
+      <button class="close-btn" id="closeMenu" type="button" aria-label="Fermer le menu">×</button>
+      <a href="/fr/">Accueil</a>
+      <a href="/fr/about.html">À propos de SpamEDGE Company</a>
+      <a href="/fr/leadership.html">Direction</a>
+      <a href="/fr/services.html">Services</a>
+      <a href="/fr/projects.html">Projets</a>
+      <a href="/fr/subsidiaries.html">Filiales</a>
+      <a href="/fr/blog.html">Actualités</a>
+      <a href="/fr/contact.html">Contact</a>
+    </nav>
+
+    <main class="page-container">
+      <div class="page-content">
+        <h1>Bibliothèque de prompts</h1>
+        <div class="prompt-intro">
+          Une collection ciblée de prompts réutilisables pour la communication d'entreprise, la planification de projets et la relation client.
+        </div>
+
+        <div class="prompt-grid">
+          <article class="prompt-card">
+            <h3>Générateur de brief de projet</h3>
+            <p>Créez un brief clair et professionnel pour un projet ou une initiative.</p>
+            <pre>Agis comme un consultant senior en stratégie pour SpamEDGE Company. Rédige un brief de projet pour [NOM DU PROJET]. Inclue l'objectif, le périmètre, les parties prenantes, les livrables, le calendrier, les risques, les hypothèses et les indicateurs de réussite. Garde un ton clair, professionnel et orienté action.</pre>
+          </article>
+
+          <article class="prompt-card">
+            <h3>Message de prospection client</h3>
+            <p>Préparez une note d'approche soignée pour une opportunité commerciale.</p>
+            <pre>Rédige un e-mail de prospection professionnel destiné à un client potentiel dans le secteur [SECTEUR]. Explique qui est SpamEDGE Company, la valeur que nous apportons et pourquoi le client devrait envisager nos services. Inclue un objet, une introduction chaleureuse et un appel à l'action clair.</pre>
+          </article>
+
+          <article class="prompt-card">
+            <h3>Description de service</h3>
+            <p>Transformez un service en description claire pour les clients.</p>
+            <pre>Décris le service [NOM DU SERVICE] proposé par SpamEDGE Company. Mets en avant le problème qu'il résout, le public cible, l'approche, les avantages clés, les résultats attendus et les points de différenciation. Rédige en français clair et professionnel, adapté à un site web ou à une proposition.</pre>
+          </article>
+
+          <article class="prompt-card">
+            <h3>Résumé exécutif</h3>
+            <p>Condensez une mise à jour de projet ou d'entreprise en résumé de direction.</p>
+            <pre>Rédige un résumé exécutif pour [ENTREPRISE/PROJET]. Inclue le contexte, les défis actuels, la solution proposée, l'approche de mise en œuvre, l'impact attendu et la valeur stratégique. Gardez un ton concis, convaincant et facile à lire pour les dirigeants.</pre>
+          </article>
+
+          <article class="prompt-card">
+            <h3>Publication LinkedIn</h3>
+            <p>Rédigez un post social engageant pour renforcer la visibilité.</p>
+            <pre>Rédige une publication professionnelle LinkedIn pour SpamEDGE Company sur [SUJET]. La publication doit être engageante, concise et adaptée à un public professionnel. Inclue une idée clé, une valeur commerciale et un appel à l'action fort.</pre>
+          </article>
+
+          <article class="prompt-card">
+            <h3>Plan de proposition</h3>
+            <p>Créez une structure claire pour une proposition client.</p>
+            <pre>Développe un plan de proposition pour [CLIENT/PROJET]. Inclue le résumé exécutif, le défi commercial, la solution proposée, le périmètre de travail, le calendrier, les hypothèses budgétaires, les risques et la section de clôture. Gardez un format professionnel et facilement extensible.</pre>
+          </article>
+        </div>
+
+        <p style="margin-top: 30px;"><a class="back-link" href="/fr/">← Retour à l'accueil</a></p>
+      </div>
+    </main>
+
+    <footer class="site-footer footer-wave">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <p>© 2026 SpamEDGE Company.</p>
+          <p>Tous droits réservés.</p>
+        </div>
+        <div class="footer-col">
+          <a href="/fr/about.html">À propos</a>
+          <a href="/fr/contact.html">Contact</a>
+          <a href="/fr/services.html">Services</a>
+          <a href="/fr/subsidiaries.html">Filiales</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" /></a>
+          <a href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" rel="noreferrer" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" /></a>
+          <a href="https://www.instagram.com/spamedgecompanyng" target="_blank" rel="noreferrer" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

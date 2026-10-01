@@ -256,3 +256,67 @@ Avoid cartoon/anime appearance.
 Avoid unrealistic equipment.
 Avoid distorted faces, hands or surveying instruments.
 Keep professional Nigerian/African environments where appropriate.
+
+# SpamEDGE Company Creative Direction Library
+
+This repository folder is the master creative-direction library for SpamEDGE Company visuals. Use these instructions as the source of truth for all generated marketing, web, and presentation assets.
+
+## Brand source of truth
+
+- Company name: SpamEDGE Company
+- Brand positioning: precision-driven, technology-led, multidisciplinary company focused on geospatial intelligence, engineering, construction, sustainable development, and digital innovation.
+- Founder: Amusa Abdullahi Akintayo
+- Founder background: B.Tech in Surveying and Geoinformatics
+- Visual identity: professional engineering aesthetic, geospatial clarity, clean modern layouts, practical infrastructure imagery, and credible field-ready storytelling.
+- Core divisions: Geospatial, Technology, Engineering and Construction, Foundation, and Digital Assets.
+- Subsidiaries: SpamEDGE Technology Limited, SpamEDGE Foundation, and SpamEDGE Chain.
+- Signature palette: deep navy (#173d2b), green (#2f7d4a), dark green (#1d5a35), purple accent (#c0177c), white, and neutral corporate backgrounds.
+- Visual language: crisp, technical, trustworthy, polished, and solution-oriented.
+
+## Required visual rules
+
+- Do not rename, abbreviate, or replace the SpamEDGE Company name.
+- Do not invent alternate company names, new founders, or different biography details.
+- Keep the company logo and branding consistent with the existing site.
+- Preserve the site’s professional engineering and geospatial aesthetic.
+- Use realistic photography and technical imagery when possible: surveying crews, GIS mapping, drone mapping, site planning, infrastructure progress, land analysis, engineering drawings, and digital dashboards.
+- Favor strong composition, natural light, technical workwear, construction environments, maps, models, and site context.
+- Keep captions, messages, and UI text aligned with the company’s established tone: precise, dependable, forward-looking, and sustainable.
+
+## Scene prompts
+
+### Scene 01 — Executive flagship hero
+
+"A professional corporate hero scene for SpamEDGE Company, featuring a modern engineering and geospatial workspace with a large digital map, surveying equipment, CAD screens, GIS dashboards, and a strong architectural backdrop. The composition should feel premium, technical, and credible, with the SpamEDGE Company name clearly visible and the overall visual tone aligned with precision engineering and sustainable infrastructure."
+
+### Scene 02 — Surveying and geospatial fieldwork
+
+"A field-based survey team in action at a real development site, with drones, GNSS equipment, measuring instruments, and geospatial specialists working together. Show a clean, professional environment with maps, terrain analysis, and infrastructure planning. The visual should communicate accuracy, reliability, and modern geospatial intelligence."
+
+### Scene 03 — Engineering and construction coordination
+
+"An engineering and construction coordination scene showing professionals reviewing site plans, engineering layouts, road infrastructure, and project progress. Include design boards, field notes, digital models, and a strong sense of practical implementation. Keep the aesthetic modern, structured, and rooted in the built environment."
+
+### Scene 04 — Digital technology and innovation
+
+"A technology-focused visual for SpamEDGE Company showing GIS dashboards, geospatial software interfaces, data overlays, digital twins, and innovation-focused planning. Use a polished professional layout that reflects digital transformation, spatial intelligence, and technical problem-solving."
+
+### Scene 05 — Foundation and impact storytelling
+
+"A meaningful social impact scene representing the SpamEDGE Foundation, highlighting community development, education outreach, and sustainable impact. Keep the mood sincere, constructive, and hopeful, while preserving the same professional and credible brand identity used by SpamEDGE Company."
+
+### Scene 06 — Corporate leadership and trust
+
+"A polished portrait-style corporate scene featuring the founder, Amusa Abdullahi Akintayo, in a professional setting that reinforces his leadership in surveying and geoinformatics. The image should feel confident, respected, and credible, aligned with the company’s technical foundation and strategic vision."
+
+### Scene 07 — Project planning and urban development
+
+"A high-end aerial or planning scene of a growing urban or infrastructure project, showing land mapping, survey markers, site preparation, civil planning, and sustainable urban development. Maintain a clean engineering aesthetic with a strong sense of precision, order, and forward progress."
+
+### Scene 08 — Brand system and geometric composition
+
+"A brand-style abstract composition using the SpamEDGE Company navy, green, and purple palette. Incorporate maps, technical lines, corridors, site grids, and layered geometric forms to create a professional corporate visual that feels geospatial, modern, and engineering-led without losing clarity or readability."
+
+## Use for all assets
+
+Apply these prompts as the exact creative direction when generating any new visual, banner, social graphic, hero image, product page artwork, or website section for SpamEDGE Company. Keep the identification, messaging, and visual habits consistent across every asset.

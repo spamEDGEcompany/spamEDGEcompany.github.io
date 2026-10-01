@@ -344,6 +344,13 @@ main.page-container > .page-content > h1 {
   opacity: 0.95;
 }
 
+.hero-summary {
+  max-width: 680px !important;
+  margin-top: 22px !important;
+  font-size: 1.05rem !important;
+  line-height: 1.7;
+}
+
 .hero-bridge {
   position: absolute;
   right: 18%;
@@ -497,6 +504,46 @@ main.page-container > .page-content > h1 {
 .section-block .inner {
   max-width: 900px;
   margin: 0 auto;
+}
+
+.founder-credibility {
+  margin-top: 28px;
+  padding: 26px 28px;
+  border-left: 5px solid var(--green);
+  background: #f3f8f4;
+}
+
+.founder-credibility h3 {
+  margin-bottom: 14px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.service-group {
+  padding: 24px;
+  border-top: 4px solid var(--green);
+  background: #f7faf7;
+}
+
+.service-group h3 {
+  margin-bottom: 14px;
+  color: var(--navy);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
+.service-group ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.service-group li {
+  margin: 6px 0;
 }
 
 .section-block h2, .page-content h1, .page-content h2, .page-content h3 {
@@ -1014,6 +1061,14 @@ ul.clean-list li { margin: 10px 0; }
 
   .two-col {
     grid-template-columns: 1fr;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-credibility {
+    padding: 22px 20px;
   }
 
   .page-container {

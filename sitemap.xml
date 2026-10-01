@@ -1,11 +1,4 @@
 
-
-
-
-⸻
-
-layout: null
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -15,12 +8,42 @@ layout: null
     <loc>https://spamedgecompany.github.io/about.html</loc>
   </url>
   <url>
+    <loc>https://spamedgecompany.github.io/leadership.html</loc>
+  </url>
+  <url>
     <loc>https://spamedgecompany.github.io/services.html</loc>
   </url>
   <url>
     <loc>https://spamedgecompany.github.io/projects.html</loc>
   </url>
   <url>
+    <loc>https://spamedgecompany.github.io/subsidiaries.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/blog.html</loc>
+  </url>
+  <url>
     <loc>https://spamedgecompany.github.io/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/fr/index.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/fr/about.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/fr/leadership.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/fr/services.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/fr/projects.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/fr/subsidiaries.html</loc>
+  </url>
+  <url>
+    <loc>https://spamedgecompany.github.io/fr/contact.html</loc>
   </url>
 </urlset>

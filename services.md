@@ -5,7 +5,7 @@ title: Services
 
 # Our Services
 
-SpamEDGE Company offers a wide range of services across four core divisions.
+SpamEDGE Company offers a wide range of services across five core divisions.
 
 ## 🌍 Geospatial & Surveying
 - Land Surveying
@@ -23,17 +23,16 @@ SpamEDGE Company offers a wide range of services across four core divisions.
 - Engineering Consultancy
 - Shoreline/Coastal Works
 
-## 🏛️ Architecture & Design
-- Architectural Design
-- 3D Modelling
-- Building Design
-- CAD Services
-
 ## 💻 Technology
 - Software/Digital Solutions
 - Geospatial Technology
 - Data Management
 - Digital Mapping
+
+## ₿ Digital Assets
+- Cryptocurrencies & Exchanges
+- Blockchain & Web3
+- Digital Investment & Asset Services
 
 ---
 

@@ -6,10 +6,10 @@ title: About Us
 # About SpamEDGE Company
 
 ## Company Overview
-SpamEDGE Company is a multidisciplinary firm delivering integrated solutions in geospatial science, engineering, construction, architecture, and technology. We combine technical precision with a commitment to sustainable impact.
+SpamEDGE Company is a multidisciplinary firm delivering integrated solutions in geospatial science, engineering, construction, and technology. We combine technical precision with a commitment to sustainable impact.
 
 ## Who We Are
-We are a team of surveyors, engineers, architects, and technologists working together to solve real-world infrastructure and development challenges — from land surveying and mapping to construction and digital innovation.
+We are a team of surveyors, engineers, and technologists working together to solve real-world infrastructure and development challenges — from land surveying and mapping to construction and digital innovation.
 
 ## Mission
 To deliver precise, innovative, and sustainable solutions that build infrastructure and communities for the future.
@@ -26,7 +26,7 @@ To be a leading multidisciplinary company driving geospatial, engineering, and t
 
 ## Company History
 A technology-driven partner delivering precision and innovative solutions
-SpamEDGE Company is a multidisciplinary company providing integrated geospatial, engineering, construction, architecture, and technology solutions. We are committed to making complex technical processes simpler, more efficient, and accessible through the effective application of modern technology and professional expertise.
+SpamEDGE Company is a multidisciplinary company providing integrated geospatial, engineering, construction, and technology solutions. We are committed to making complex technical processes simpler, more efficient, and accessible through the effective application of modern technology and professional expertise.
 
 We operate with a strong sense of precision, professionalism, innovation, and responsibility, building solutions around the needs of our clients and the communities we serve. Our approach combines technical knowledge with emerging technologies to deliver practical, reliable, and value-driven solutions across diverse projects.
 
