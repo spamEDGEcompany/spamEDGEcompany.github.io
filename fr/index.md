@@ -41,7 +41,7 @@ SpamEDGE Company — Simplifier le monde géospatial grâce à l'innovation et �
 <li><strong>Technologie</strong> — Solutions numériques, technologies géospatiales, gestion des données</li>
 <li><strong>Actifs numériques</strong> — Cryptomonnaies et plateformes d'échange, blockchain et Web3, services d'investissement et d'actifs numériques</li>
 </ul>
-<a href="/fr/services" style="color:#c0177c; font-weight:700; text-decoration:none;">Voir tous nos services →</a>
+<a href="https://spamedgecompany.github.io/fr/services" style="color:#c0177c; font-weight:700; text-decoration:none;">Voir tous nos services →</a>
 </div>
 
 <div style="padding:0 24px 48px; max-width:800px;">
@@ -56,7 +56,7 @@ SpamEDGE Company — Simplifier le monde géospatial grâce à l'innovation et �
 <div style="background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; padding:120px 24px; min-height:400px; display:flex; flex-direction:column; justify-content:center;">
 <h2 style="font-size:32px;">SpamEDGE Foundation</h2>
 <p style="max-width:600px; font-size:18px; line-height:1.8;">Notre branche à impact social, dédiée au développement communautaire, à la sensibilisation et aux initiatives éducatives qui créent un changement positif durable.</p>
-<a href="/fr/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">EN SAVOIR PLUS</a>
+<a href="https://spamedgecompany.github.io/fr/subsidiaries" style="background:#fff; color:#2e7d32; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:20px; width:fit-content;">EN SAVOIR PLUS</a>
 </div>
 
 <div style="padding:48px 24px; max-width:800px; margin:0 auto; text-align:center;">
@@ -65,5 +65,5 @@ SpamEDGE Company — Simplifier le monde géospatial grâce à l'innovation et �
 
 <div style="background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; padding:64px 24px; text-align:center;">
 <h2>Prêt à travailler avec nous ?</h2>
-<a href="/fr/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">NOUS CONTACTER</a>
+<a href="https://spamedgecompany.github.io/fr/contact" style="background:#fff; color:#c0177c; padding:14px 32px; text-decoration:none; font-weight:700; display:inline-block; margin-top:12px;">NOUS CONTACTER</a>
 </div>

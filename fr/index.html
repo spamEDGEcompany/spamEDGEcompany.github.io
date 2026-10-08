@@ -1,177 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SpamEDGE Company | Engineering Precision, Building the Future</title>
-    <meta name="description" content="SpamEDGE Company delivers precision-driven solutions in geospatial technology, surveying, engineering, construction, and digital innovation." />
+    <title>SpamEDGE Company | Précision technique, bâtir l'avenir</title>
+    <meta name="description" content="SpamEDGE Company propose des solutions précises en technologie géospatiale, ingénierie, construction et innovation numérique." />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://spamedgecompany.github.io/" />
+    <link rel="canonical" href="https://spamedgecompany.github.io/fr/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SpamEDGE Company | Engineering Precision, Building the Future" />
-    <meta property="og:description" content="Precision-driven geospatial, engineering, construction and digital innovation solutions." />
-    <meta property="og:url" content="https://spamedgecompany.github.io/" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta property="og:title" content="SpamEDGE Company | Précision technique, bâtir l'avenir" />
+    <meta property="og:description" content="Des solutions de précision en géospatial, ingénierie, construction et innovation numérique." />
+    <meta property="og:url" content="https://spamedgecompany.github.io/fr/" />
+    <link rel="icon" href="https://spamedgecompany.github.io/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://spamedgecompany.github.io/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="navbar" style="position:relative;">
         <div class="brand">
-          <img src="company%20logo.jpeg" alt="SpamEDGE Company" />
+          <img src="/company%20logo.jpeg" alt="SpamEDGE Company" />
           <span>SpamEDGE Company</span>
         </div>
-
+        <div class="header-exchange" aria-live="polite">
+          <span>USD/NGN <strong id="usd-ngn-rate">--</strong></span>
+          <span>EUR/NGN <strong id="eur-ngn-rate">--</strong></span>
+          <span class="crypto-market-item"><span>BTC</span><strong id="btc-price">Loading</strong><span id="btc-change" class="crypto-change">--</span></span>
+          <span class="crypto-market-item"><span>ETH</span><strong id="eth-price">Loading</strong><span id="eth-change" class="crypto-change">--</span></span>
+          <span class="crypto-market-item"><span>SOL</span><strong id="sol-price">Loading</strong><span id="sol-change" class="crypto-change">--</span></span>
+          <span class="ticker-date">As at <span id="market-date">--</span></span>
+        </div>
+        <nav class="nav-links" aria-label="Navigation principale">
+          <a href="https://spamedgecompany.github.io/fr/">Accueil</a>
+          <a href="https://spamedgecompany.github.io/fr/about.html">À propos</a>
+          <a href="https://spamedgecompany.github.io/fr/leadership.html">Direction</a>
+          <a href="https://spamedgecompany.github.io/fr/services.html">Services</a>
+          <a href="https://spamedgecompany.github.io/fr/projects.html">Projets</a>
+          <a href="https://spamedgecompany.github.io/fr/subsidiaries.html">Filiales</a>
+          <a href="https://spamedgecompany.github.io/fr/blog.html">Actualités</a>
+          <a href="https://spamedgecompany.github.io/fr/contact.html">Contact</a>
+        </nav>
         <div class="nav-actions">
           <div class="lang-switch">
-            <a href="https://spamedgecompany.github.io/" class="active">EN</a>
-            <a href="/fr/index.html">FR</a>
+            <a href="https://spamedgecompany.github.io/">EN</a>
+            <a href="https://spamedgecompany.github.io/fr/" class="active">FR</a>
           </div>
-          <a class="icon-button" href="mailto:info.spamedgdecompany@gmail.com" title="Email us" aria-label="Email us">
+          <a class="icon-button" href="mailto:info.spamedgdecompany@gmail.com" title="Nous écrire" aria-label="Nous écrire">
             <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"></path><path d="m22 6-10 7L2 6"></path></svg>
           </a>
-          <button class="icon-button" id="searchToggle" type="button" title="Search" aria-label="Search">
+          <button class="icon-button" id="searchToggle" type="button" title="Rechercher" aria-label="Rechercher">
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
           </button>
-          <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" title="Menu">
-            <span></span><span></span><span></span>
+          <button class="icon-button hamburger" id="menuButton" type="button" title="Menu" aria-label="Ouvrir le menu">
+            <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
           </button>
         </div>
-
         <form class="search-box" id="siteSearch" action="https://www.google.com/search" method="get" target="_blank">
           <input type="hidden" name="sitesearch" value="spamedgecompany.github.io" />
-          <input type="text" name="q" placeholder="Search..." />
+          <input type="text" name="q" placeholder="Rechercher..." />
         </form>
       </div>
     </header>
 
-    <div class="overlay" id="overlay"></div>
-
-    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
-      <button class="close-btn" id="closeMenu" type="button" aria-label="Close menu">×</button>
-      <a href="/">Home</a>
-      <a href="/about.html">About SpamEDGE Company</a>
-      <a href="/leadership.html">Leadership</a>
-      <a href="/services.html">Services</a>
-      <a href="/projects.html">Projects</a>
-      <a href="/subsidiaries.html">Subsidiaries</a>
-      <a href="/blog.html">News</a>
-      <a href="/contact.html">Contact</a>
+    <div class="overlay" id="overlay"></div>    <nav class="mobile-menu" id="mobileMenu" aria-label="Menu mobile">
+      <button class="close-btn" id="closeMenu" type="button" aria-label="Fermer le menu">×</button>
+      <a href="https://spamedgecompany.github.io/fr/">Accueil</a>
+      <a href="https://spamedgecompany.github.io/fr/about.html">À propos de SpamEDGE Company</a>
+      <a href="https://spamedgecompany.github.io/fr/leadership.html">Direction</a>
+      <a href="https://spamedgecompany.github.io/fr/services.html">Services</a>
+      <a href="https://spamedgecompany.github.io/fr/projects.html">Projets</a>
+      <a href="https://spamedgecompany.github.io/fr/subsidiaries.html">Filiales</a>
+      <a href="https://spamedgecompany.github.io/fr/blog.html">Actualités</a>
+      <a href="https://spamedgecompany.github.io/fr/contact.html">Contact</a>
     </nav>
 
     <main>
-      <section class="hero-banner" style="background-image: url('hero.jpeg');">
-        <div class="page-container">
-          <h1>SPAMEDGE COMPANY</h1>
-          <p style="max-width: 760px; font-size: 1.2rem; margin-top: 14px; line-height: 1.7; color:#fff; font-weight:600;">
-            Geospatial Intelligence. Technology. Design. Engineering. Construction.
-          </p>
-          <p style="max-width: 760px; font-size: 1.05rem; margin-top: 8px; color:#f4f7fb; letter-spacing:0.02em;">
-            Together for Sustainable Impact.
-          </p>
-          <p class="hero-summary">From spatial data to real-world development, we connect technology and the built environment to create smarter, sustainable solutions.</p>
-          <div class="cta-row" style="margin-top: 24px; display:flex; gap:14px; flex-wrap:wrap;">
-            <a class="button light" href="/services.html">Explore Our Services</a>
-            <a class="button light" href="/about.html">About SpamEDGE</a>
+      <section class="hero-showcase">
+        <div class="hero-showcase-inner">
+          <div class="hero-copy">
+            <div>
+              <h1>Précision technique,<br />bâtir l'avenir</h1>
+              <p class="hero-tagline">Intelligence géospatiale. Technologie. Conception. Ingénierie. Construction.</p>
+              <span class="motto">Ensemble pour un impact durable.</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img src="/spamedge-office.jpg" alt="Siège social de SpamEDGE Company, avec le ciel et la route" />
           </div>
         </div>
-        <div class="hero-bridge"><span></span></div>
+      </section>
+
+      <section class="home-showreel-section" aria-labelledby="home-showreel-title">
+        <div class="home-showreel-inner">
+          <h2 id="home-showreel-title">Nos services et filiales</h2>
+          <p>Un aperçu visuel de nos services, de nos équipes et de nos filiales.</p>
+          <video controls playsinline preload="metadata" poster="/fr/spamedge-home-showreel-poster.jpg" aria-label="Vidéo de présentation des services et filiales de SpamEDGE Company">
+            <source src="/fr/spamedge-home-showreel.mp4" type="video/mp4" />
+            Votre navigateur ne prend pas en charge la vidéo intégrée. <a href="https://spamedgecompany.github.io/fr/spamedge-home-showreel.mp4">Regarder la vidéo de présentation de SpamEDGE Company</a>.
+          </video>
+        </div>
       </section>
 
       <section class="home-intro">
-        <h2>From spatial data to real-world development</h2>
-        <p style="font-weight: 600; color: #1a2b4c;">Surveying &amp; Geoinformatics → Geospatial Intelligence → Technology → Design → Engineering → Construction</p>
+        <h2>Des données spatiales au développement concret</h2>
+        <p style="font-weight: 600; color: #1a2b4c;">Topographie et géoinformatique → Intelligence géospatiale → Technologie → Conception → Ingénierie → Construction</p>
       </section>
 
       <section class="service-strip">
         <div class="service-strip-inner">
-          <div class="service-chip"><span class="icon">G</span> GIS</div>
-          <div class="service-chip"><span class="icon">C</span> CAD</div>
+          <div class="service-chip"><span class="icon">G</span> SIG</div>
+          <div class="service-chip"><span class="icon">C</span> CAO</div>
           <div class="service-chip"><span class="icon">D</span> Drone</div>
-          <div class="service-chip"><span class="icon">DA</span> Digital Assets</div>
-          <div class="service-chip"><span class="icon">F</span> Foundation</div>
+          <div class="service-chip"><span class="icon">DA</span> Actifs numériques</div>
+          <div class="service-chip"><span class="icon">F</span> Fondation</div>
         </div>
       </section>
 
       <section class="section-block">
         <div class="inner">
-          <h2>About SpamEDGE</h2>
-          <p>SpamEDGE Company is a technology-driven multidisciplinary company focused on Geospatial Intelligence, Digital Technology, Engineering, Construction, and Sustainable Development.</p>
-          <p>Founded with a strong foundation in Surveying and Geoinformatics, SpamEDGE brings together spatial data, modern technology, design, and engineering to provide smarter solutions for the built environment and beyond.</p>
-          <p>Our approach connects data, technology, design, and infrastructure to help clients understand, plan, develop, and manage the spaces and assets around them.</p>
-
+          <h2>Construire des solutions durables</h2>
+          <p>SpamEDGE Company est une organisation pluridisciplinaire et axée sur la technologie, engagée à fournir des solutions fiables, innovantes et créatrices de valeur dans les domaines du géospatial, de la technologie architecturale et structurelle, de l'ingénierie, de la construction et du développement durable. Nous combinons expertise professionnelle, technologies modernes et approches pratiques pour proposer des solutions répondant aux besoins évolutifs de nos clients.</p>
+          <p>Notre expertise repose sur la topographie et la géoinformatique, les SIG, la cartographie numérique, l'acquisition de données spatiales, la conception architecturale et structurelle, la modélisation des données du bâtiment (BIM), le support en ingénierie, la construction et les solutions technologiques. En réunissant ces domaines, nous offrons des services intégrés qui aident nos clients à mieux planifier, prendre des décisions éclairées, améliorer leur efficacité et mener à bien leurs projets.</p>
+          <p>Chez SpamEDGE, nous croyons que la technologie doit rendre les processus complexes plus simples, plus rapides, plus précis et plus accessibles. Nous explorons continuellement des méthodes innovantes et des technologies émergentes afin d'améliorer la manière dont les services géospatiaux et techniques sont fournis.</p>
+          <p>Notre engagement envers la précision, le professionnalisme, l'innovation, l'intégrité et l'amélioration continue guide chacun de nos projets. Nous nous efforçons de bâtir des relations durables avec nos clients grâce à des services fiables, une communication efficace et des solutions adaptées à leurs besoins spécifiques.</p>
+          <p>À mesure que nous grandissons, notre vision est d'établir SpamEDGE comme un partenaire de confiance et tourné vers l'avenir dans les secteurs du géospatial, de l'ingénierie et de la technologie, contribuant ainsi à des infrastructures plus intelligentes, à une meilleure prise de décision spatiale et à des avancées technologiques significatives.</p>
           <div class="founder-credibility">
-            <h3>The Expertise Behind SpamEDGE</h3>
-            <p>SpamEDGE is founded on a professional background in Surveying and Geoinformatics, bringing expertise in spatial data, positioning, mapping, GIS, surveying technology, and the built environment.</p>
-            <p><strong>Founder background:</strong> B.Tech in Surveying and Geoinformatics.</p>
-            <p>This geospatial foundation gives SpamEDGE a unique perspective: we understand the space, capture the data, analyze it, and transform that insight into practical solutions.</p>
+            <h3>L'expertise derrière SpamEDGE</h3>
+            <p>SpamEDGE s'appuie sur une expérience professionnelle en topographie et géoinformatique, avec une expertise en données spatiales, positionnement, cartographie, SIG, technologies de levés et environnement bâti.</p>
+            <p><strong>Formation du fondateur :</strong> B.Tech en topographie et géoinformatique.</p>
+            <p>Cette base géospatiale nous donne une perspective unique : nous comprenons l'espace, recueillons et analysons les données, puis transformons ces informations en solutions concrètes.</p>
           </div>
+          <div class="quote-box"><strong>SpamEDGE Company</strong> — Simplifier le monde géospatial grâce à l'innovation et à la technologie.</div>
         </div>
       </section>
 
-      <section class="section-block tall-section expertise-section" style="background-image: linear-gradient(rgba(32,95,59,0.78), rgba(32,95,59,0.78)), url('expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff;">
+      <section class="section-block" style="background-image: linear-gradient(rgba(26,43,76,0.5), rgba(26,43,76,0.5)), url('/expertise-bg.jpeg'); background-size:cover; background-position:center; color:#fff;">
         <div class="inner">
-          <h2 style="color:#fff;">Our Expertise</h2>
+          <h2 style="color:#fff;">Notre expertise</h2>
           <div class="two-col">
             <div class="stat-box">
               <div class="value">5</div>
-              <div>Core Divisions</div>
+              <div>Divisions principales</div>
             </div>
             <div class="stat-box">
               <div class="value">3</div>
-              <div>Subsidiaries</div>
+              <div>Filiales</div>
             </div>
             <div class="stat-box">
               <div class="value">100%</div>
-              <div>Commitment to Impact</div>
+              <div>Engagement envers l'impact</div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-block">
+      <section class="section-block home-subsidiaries">
         <div class="inner">
-          <h2>Our Services</h2>
-          <div class="service-grid">
-            <div class="service-group"><h3>GEOSPATIAL</h3><ul><li>Land &amp; Engineering Surveying</li><li>GNSS/RTK Services</li><li>GIS &amp; Mapping</li><li>Drone Mapping &amp; Photogrammetry</li><li>Spatial Data Analysis</li></ul></div>
-            <div class="service-group"><h3>TECHNOLOGY</h3><ul><li>Digital Solutions</li><li>Geospatial Technology</li><li>Infrastructure Technology</li><li>Data &amp; Mapping Solutions</li></ul></div>
-            <div class="service-group"><h3>ENGINEERING AND CONSTRUCTION</h3><ul><li>Construction Support</li><li>Site Planning and Site Development</li><li>Infrastructure Development</li><li>Engineering Consultancy</li><li>Built-Environment Solutions</li><li>Surveying &amp; Construction Coordination</li></ul></div>
-            <div class="service-group"><h3>FOUNDATION</h3><ul><li>Youth &amp; Education</li><li>Community Development</li><li>Environmental Initiatives</li></ul></div>
-            <div class="service-group"><h3>DIGITAL ASSETS</h3><ul><li>Digital Asset Services</li><li>Trading &amp; Digital Asset Solutions</li></ul></div>
+          <h2>Nos filiales</h2>
+          <div class="subsidiary-grid">
+            <article class="subsidiary-panel subsidiary-panel--technology">
+              <h2>Expertise technologique</h2>
+              <svg class="subsidiary-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 54h48M14 54V15h24v39M38 28h12v26M20 22h5m7 0h1M20 31h5m7 0h1M20 40h5m7 0h1M44 35h5m-5 8h5"/></svg>
+              <p class="subsidiary-highlight">Géospatial<br />Ingénierie<br />Technologie numérique</p>
+              <div class="subsidiary-panel__detail">
+                <span class="subsidiary-mark" aria-hidden="true">01</span>
+                <p>SpamEDGE Technology Limited relie les données spatiales, l'ingénierie et les solutions numériques.</p>
+              </div>
+              <a class="subsidiary-button" href="https://spamedgecompany.github.io/fr/services.html#technology-services">Découvrir la technologie</a>
+            </article>
+
+            <article class="subsidiary-panel subsidiary-panel--foundation">
+              <h2>Impact communautaire</h2>
+              <svg class="subsidiary-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 53S8 39 8 23a13 13 0 0 1 24-7 13 13 0 0 1 24 7c0 16-24 30-24 30ZM19 31h9l4-9 6 19 4-10h7"/></svg>
+              <p class="subsidiary-highlight">Personnes<br />Éducation<br />Communauté</p>
+              <div class="subsidiary-panel__detail">
+                <span class="subsidiary-mark" aria-hidden="true">02</span>
+                <p>SpamEDGE Foundation soutient le développement communautaire, la sensibilisation et l'éducation.</p>
+              </div>
+              <a class="subsidiary-button" href="https://spamedgecompany.github.io/fr/#foundation">Découvrir notre impact</a>
+            </article>
+
+            <article class="subsidiary-panel subsidiary-panel--chain">
+              <h2>Actifs numériques</h2>
+              <svg class="subsidiary-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="m32 7 21 12v26L32 57 11 45V19L32 7ZM11 19l21 13 21-13M32 32v25M21 13l21 13M43 13 21 26"/></svg>
+              <p class="subsidiary-highlight">Blockchain<br />Actifs numériques<br />Web3</p>
+              <div class="subsidiary-panel__detail">
+                <span class="subsidiary-mark" aria-hidden="true">03</span>
+                <p>SpamEDGE Chain explore les actifs numériques et les possibilités de la blockchain dans l'économie numérique.</p>
+              </div>
+              <a class="subsidiary-button" href="https://spamedgecompany.github.io/fr/services.html#digital-assets">Découvrir les actifs numériques</a>
+            </article>
           </div>
-          <p style="margin-top:18px;"><a class="cta-link" href="/services.html">See all services →</a></p>
+          <p><a class="cta-link" href="https://spamedgecompany.github.io/fr/subsidiaries.html">Voir toutes les filiales →</a></p>
         </div>
       </section>
 
-      <section class="section-block">
-        <div class="inner">
-          <h2>Our Subsidiaries</h2>
-          <ul class="clean-list">
-            <li><strong>SpamEDGE Technology Limited</strong> — Geospatial, engineering &amp; digital technology services</li>
-            <li><strong>SpamEDGE Foundation</strong> — Social impact and community development</li>
-            <li><strong>SpamEDGE Chain</strong> — Digital assets and blockchain initiatives</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section-block tall-section foundation-section" style="background-image: linear-gradient(rgba(32,95,59,0.78), rgba(32,95,59,0.78)), url('foundation-bg.png'); background-size:cover; background-position:center; color:#fff; display:flex; align-items:center;">
+      <section class="section-block" id="foundation" style="background-image: linear-gradient(rgba(46,125,50,0.6), rgba(46,125,50,0.6)), url('/foundation-bg.png'); background-size:cover; background-position:center; color:#fff; min-height:420px; display:flex; align-items:center;">
         <div class="inner">
           <h2 style="color:#fff; font-size:2rem;">SpamEDGE Foundation</h2>
-          <p style="max-width:620px; font-size:1.15rem; line-height:1.7;">Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.</p>
-          <a class="button light" href="/subsidiaries.html">LEARN MORE</a>
+          <p style="max-width:620px; font-size:1.15rem; line-height:1.7;">Notre branche à impact social, dédiée au développement communautaire, à la sensibilisation et aux initiatives éducatives qui créent un changement positif durable.</p>
+          <a class="button light" href="https://spamedgecompany.github.io/fr/subsidiaries.html">EN SAVOIR PLUS</a>
         </div>
       </section>
 
       <section class="section-block">
         <div class="inner" style="text-align:center;">
-          <p style="font-size:1.08rem; line-height:1.8; color:#333;">SPAMEDGE Foundation is a purpose-driven organization committed to empowering individuals, supporting communities, and creating opportunities for positive social impact. Through strategic initiatives, partnerships, and community-focused programs, we strive to inspire growth, promote inclusivity, and contribute to a better future.</p>
+          <p style="font-size:1.08rem; line-height:1.8; color:#333;">SpamEDGE Foundation est une organisation animée par une mission, engagée à autonomiser les individus, soutenir les communautés et créer des opportunités d'impact social positif. Grâce à des initiatives stratégiques, des partenariats et des programmes axés sur la communauté, nous nous efforçons d'inspirer la croissance, de promouvoir l'inclusion et de contribuer à un avenir meilleur.</p>
         </div>
       </section>
 
-      <section class="section-block tall-section cta-section" style="background-image: linear-gradient(rgba(32,95,59,0.84), rgba(32,95,59,0.84)), url('cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; text-align:center;">
+      <section class="section-block" style="background-image: linear-gradient(rgba(192,23,124,0.55), rgba(192,23,124,0.55)), url('/cta-bg.jpeg'); background-size:cover; background-position:center; color:#fff; text-align:center;">
         <div class="inner">
-          <h2 style="color:#fff;">Ready to Work With Us?</h2>
-          <a class="button light" href="/contact.html">GET IN TOUCH</a>
+          <h2 style="color:#fff;">Prêt à travailler avec nous ?</h2>
+          <a class="button light" href="https://spamedgecompany.github.io/fr/contact.html">NOUS CONTACTER</a>
         </div>
       </section>
     </main>
@@ -180,28 +220,22 @@
       <div class="footer-inner">
         <div class="footer-col">
           <p>© 2026 SpamEDGE Company.</p>
-          <p>All rights reserved.</p>
+          <p>Tous droits réservés.</p>
         </div>
         <div class="footer-col">
-          <a href="/about.html">About Us</a>
-          <a href="/contact.html">Contact</a>
-          <a href="/services.html">Services</a>
-          <a href="/subsidiaries.html">Subsidiaries</a>
+          <a href="https://spamedgecompany.github.io/fr/about.html">À propos</a>
+          <a href="https://spamedgecompany.github.io/fr/contact.html">Contact</a>
+          <a href="https://spamedgecompany.github.io/fr/services.html">Services</a>
+          <a href="https://spamedgecompany.github.io/fr/subsidiaries.html">Filiales</a>
         </div>
         <div class="footer-social">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" />
-          </a>
-          <a href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" rel="noreferrer" aria-label="Facebook">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" />
-          </a>
-          <a href="https://www.instagram.com/spamedgecompanyng" target="_blank" rel="noreferrer" aria-label="Instagram">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" />
-          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" /></a>
+          <a href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" rel="noreferrer" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" /></a>
+          <a href="https://www.instagram.com/spamedgecompanyng" target="_blank" rel="noreferrer" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" /></a>
         </div>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>

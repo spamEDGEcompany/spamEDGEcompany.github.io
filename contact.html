@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | SpamEDGE Company</title>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="https://spamedgecompany.github.io/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -15,19 +15,19 @@
           <span>SpamEDGE Company</span>
         </div>
         <nav class="nav-links" aria-label="Main navigation">
-          <a href="/">Home</a>
-          <a href="/about.html">About</a>
-          <a href="/leadership.html">Leadership</a>
-          <a href="/services.html">Services</a>
-          <a href="/projects.html">Projects</a>
-          <a href="/subsidiaries.html">Subsidiaries</a>
-          <a href="/blog.html">News</a>
-          <a href="/contact.html" class="active">Contact</a>
+          <a href="https://spamedgecompany.github.io/">Home</a>
+          <a href="https://spamedgecompany.github.io/about.html">About</a>
+          <a href="https://spamedgecompany.github.io/leadership.html">Leadership</a>
+          <a href="https://spamedgecompany.github.io/services.html">Services</a>
+          <a href="https://spamedgecompany.github.io/projects.html">Projects</a>
+          <a href="https://spamedgecompany.github.io/subsidiaries.html">Subsidiaries</a>
+          <a href="https://spamedgecompany.github.io/blog.html">News</a>
+          <a href="https://spamedgecompany.github.io/contact.html" class="active">Contact</a>
         </nav>
         <div class="nav-actions">
           <div class="lang-switch">
             <a href="https://spamedgecompany.github.io/" class="active">EN</a>
-            <a href="/fr/contact.html">FR</a>
+            <a href="https://spamedgecompany.github.io/fr/contact.html">FR</a>
           </div>
           <button class="icon-button" id="searchToggle" type="button" title="Search" aria-label="Search">
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
@@ -45,32 +45,77 @@
     <div class="overlay" id="overlay"></div>
     <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
       <button class="close-btn" id="closeMenu" type="button" aria-label="Close menu">×</button>
-      <a href="/">Home</a>
-      <a href="/about.html">About SpamEDGE Company</a>
-      <a href="/leadership.html">Leadership</a>
-      <a href="/services.html">Services</a>
-      <a href="/projects.html">Projects</a>
-      <a href="/subsidiaries.html">Subsidiaries</a>
-      <a href="/blog.html">News</a>
-      <a href="/contact.html">Contact</a>
+      <a href="https://spamedgecompany.github.io/">Home</a>
+      <a href="https://spamedgecompany.github.io/about.html">About SpamEDGE Company</a>
+      <a href="https://spamedgecompany.github.io/leadership.html">Leadership</a>
+      <a href="https://spamedgecompany.github.io/services.html">Services</a>
+      <a href="https://spamedgecompany.github.io/projects.html">Projects</a>
+      <a href="https://spamedgecompany.github.io/subsidiaries.html">Subsidiaries</a>
+      <a href="https://spamedgecompany.github.io/blog.html">News</a>
+      <a href="https://spamedgecompany.github.io/contact.html">Contact</a>
     </nav>
 
-    <main class="page-container">
-      <div class="page-content">
+    <main class="page-container contact-page-container">
+      <div class="page-content contact-page-content">
         <h1>Contact Us</h1>
-        <p>We'd love to hear from you — reach out for partnerships, projects, or general inquiries.</p>
+        <div class="contact-layout">
+          <section class="contact-form-panel" aria-labelledby="contact-subject">
+            <label class="contact-select-label" for="inquiryType">Please select an inquiry type</label>
+            <select id="inquiryType" class="contact-inquiry-select">
+              <option value="General inquiries">General inquiries</option>
+              <option value="Technical inquiries">Technical inquiries</option>
+              <option value="Partnerships">Partnerships</option>
+              <option value="Press inquiries">Press inquiries</option>
+              <option value="Careers">Careers</option>
+              <option value="Report on failure to perform assigned duties">Report on failure to perform assigned duties</option>
+            </select>
+            <p class="contact-subject-label">Subject</p>
+            <h2 id="contact-subject" class="contact-subject">General inquiries</h2>
 
-        <h2>Get in Touch</h2>
-        <p><strong>Office Location</strong><br />Lagos, Nigeria</p>
-        <p><strong>Phone</strong><br /><a class="cta-link" href="tel:09158068973">0915 806 8973</a></p>
-        <p><strong>Email</strong><br /><a class="cta-link" href="mailto:info.spamedgdecompany@gmail.com">info.spamedgdecompany@gmail.com</a></p>
-        <p><strong>WhatsApp</strong><br /><a class="cta-link" href="https://wa.me/message/O6U65JGWCJNQP1" target="_blank" rel="noreferrer">Chat with us on WhatsApp</a></p>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/mqpklwoa" method="POST">
+              <input type="hidden" name="_subject" value="New SpamEDGE contact inquiry" />
+              <input type="hidden" name="_replyto" value="" />
+              <label for="contactName">Name <span aria-hidden="true">*</span></label>
+              <input id="contactName" name="name" type="text" autocomplete="name" placeholder="Name" required />
 
-        <h2>Follow Us</h2>
-        <ul>
-          <li><a class="cta-link" href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Facebook</a></li>
-          <li><a class="cta-link" href="https://www.instagram.com/spamedgecompanyng?igsi=dXJ4MG" target="_blank" rel="noreferrer">Instagram</a></li>
-        </ul>
+              <label for="contactPhone">Phone</label>
+              <input id="contactPhone" name="phone" type="tel" autocomplete="tel" placeholder="Phone" />
+
+              <label for="contactEmail">Email <span aria-hidden="true">*</span></label>
+              <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="name@example.com" required />
+
+              <label for="contactMessage">Message <span aria-hidden="true">*</span></label>
+              <textarea id="contactMessage" name="message" rows="5" placeholder="Your message" required></textarea>
+
+              <label for="contactChallenge">Spam protection: What is 3 + 4? <span aria-hidden="true">*</span></label>
+              <input id="contactChallenge" name="spamProtection" type="number" inputmode="numeric" placeholder="Your answer" required />
+
+              <label class="contact-honeypot" aria-hidden="true" for="contactWebsite">Leave this field empty</label>
+              <input class="contact-honeypot" id="contactWebsite" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+              <button class="button contact-submit" type="submit">Send inquiry</button>
+              <p class="contact-form-note">Your inquiry will be sent securely through our contact form.</p>
+              <p class="contact-form-status" id="contactFormStatus" role="status" aria-live="polite"></p>
+            </form>
+          </section>
+
+          <aside class="contact-information" aria-labelledby="contact-information-title">
+            <img class="contact-office-image" src="/spamedge-office.jpg" alt="SpamEDGE Company office building" />
+            <h2 id="contact-information-title">Contact</h2>
+            <div class="contact-information-block">
+              <h3>SpamEDGE Company</h3>
+              <p>Lagos, Nigeria</p>
+              <p><a href="tel:09158068973">0915 806 8973</a></p>
+              <p><a href="mailto:info.spamedgdecompany@gmail.com">info.spamedgdecompany@gmail.com</a></p>
+              <p><a href="https://wa.me/message/O6U65JGWCJNQP1" target="_blank" rel="noreferrer">Chat with us on WhatsApp</a></p>
+            </div>
+            <div class="contact-information-block">
+              <h3>Follow Us</h3>
+              <p><a href="https://www.facebook.com/share/1Ctf6ZfbSR/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Facebook</a></p>
+              <p><a href="https://www.instagram.com/spamedgecompanyng?igsi=dXJ4MG" target="_blank" rel="noreferrer">Instagram</a></p>
+            </div>
+          </aside>
+        </div>
       </div>
     </main>
 
@@ -81,10 +126,10 @@
           <p>All rights reserved.</p>
         </div>
         <div class="footer-col">
-          <a href="/about.html">About Us</a>
-          <a href="/contact.html">Contact</a>
-          <a href="/services.html">Services</a>
-          <a href="/subsidiaries.html">Subsidiaries</a>
+          <a href="https://spamedgecompany.github.io/about.html">About Us</a>
+          <a href="https://spamedgecompany.github.io/contact.html">Contact</a>
+          <a href="https://spamedgecompany.github.io/services.html">Services</a>
+          <a href="https://spamedgecompany.github.io/subsidiaries.html">Subsidiaries</a>
         </div>
         <div class="footer-social">
           <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" /></a>

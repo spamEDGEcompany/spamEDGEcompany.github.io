@@ -5,11 +5,11 @@ title: Home
 
 <section class="hero-section" style="background-image: linear-gradient(rgba(26,43,76,0.45), rgba(26,43,76,0.45)), url('/hero.jpeg'); min-height: 650px;">
   <div class="hero-inner">
-    <h1>SPAMEDGE COMPANY</h1>
+    <h1>Engineering Precision,<br />Building the future</h1>
     <p>Geospatial Intelligence. Technology. Design. Engineering. Construction.</p>
     <p>Together for Sustainable Impact.</p>
     <p>From spatial data to real-world development, we connect technology and the built environment to create smarter, sustainable solutions.</p>
-    <p><a class="button light" href="/services">Explore Our Services</a> &nbsp; <a class="button light" href="/about">About SpamEDGE</a></p>
+    <p><a class="button light" href="https://spamedgecompany.github.io/services">Explore Our Services</a> &nbsp; <a class="button light" href="https://spamedgecompany.github.io/about">About SpamEDGE</a></p>
   </div>
 </section>
 
@@ -64,7 +64,7 @@ title: Home
       <div class="service-group"><h3>FOUNDATION</h3><ul><li>Youth &amp; Education</li><li>Community Development</li><li>Environmental Initiatives</li></ul></div>
       <div class="service-group"><h3>DIGITAL ASSETS</h3><ul><li>Digital Asset Services</li><li>Trading &amp; Digital Asset Solutions</li></ul></div>
     </div>
-    <p><a class="cta-link" href="/services">See all services →</a></p>
+    <p><a class="cta-link" href="https://spamedgecompany.github.io/services">See all services →</a></p>
   </div>
 </section>
 
@@ -83,7 +83,7 @@ title: Home
   <div class="foundation-inner">
     <h2>SpamEDGE Foundation</h2>
     <p style="max-width: 630px; font-size: 1.15rem;">Our social impact arm, dedicated to community development, outreach, and education initiatives that create lasting positive change.</p>
-    <a class="button light" href="/subsidiaries">LEARN MORE</a>
+    <a class="button light" href="https://spamedgecompany.github.io/subsidiaries">LEARN MORE</a>
   </div>
 </section>
 
@@ -96,6 +96,6 @@ title: Home
 <section class="cta-panel" style="background-image: url('/cta-bg.jpeg'); min-height: 290px;">
   <div class="cta-inner">
     <h2>Ready to Work With Us?</h2>
-    <a class="button light" href="/contact">GET IN TOUCH</a>
+    <a class="button light" href="https://spamedgecompany.github.io/contact">GET IN TOUCH</a>
   </div>
 </section>
