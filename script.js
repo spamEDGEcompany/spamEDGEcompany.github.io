@@ -64,6 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
   window.setInterval(fetchExchangeRates, 300000);
 
   const fetchCryptoPrices = async () => {
+    const prices = {};
+    let primaryError;
+
     try {
       const response = await fetch(
         'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Csolana&vs_currencies=usd&include_24hr_change=true',
@@ -75,37 +78,63 @@ document.addEventListener('DOMContentLoaded', () => {
       cryptoTickers.forEach(({ id, symbol }) => {
         const price = Number(payload?.[id]?.usd);
         const change = Number(payload?.[id]?.usd_24h_change);
-        const priceEl = document.getElementById(`${symbol}-price`);
-        const changeEl = document.getElementById(`${symbol}-change`);
-
-        if (!Number.isFinite(price) || !Number.isFinite(change)) {
-          if (priceEl) priceEl.textContent = 'Unavailable';
-          if (changeEl) changeEl.textContent = '--';
-          return;
-        }
-
-        if (priceEl) {
-          priceEl.textContent = new Intl.NumberFormat('en-US', {
-            style: 'currency',
-            currency: 'USD',
-            maximumFractionDigits: price < 1 ? 4 : price < 100 ? 2 : 0
-          }).format(price);
-        }
-        if (changeEl) {
-          changeEl.textContent = `${change > 0 ? '+' : ''}${change.toFixed(2)}%`;
-          changeEl.classList.toggle('is-positive', change >= 0);
-          changeEl.classList.toggle('is-negative', change < 0);
-        }
+        if (Number.isFinite(price) && Number.isFinite(change)) prices[symbol] = { price, change };
       });
     } catch (error) {
-      cryptoTickers.forEach(({ symbol }) => {
-        const priceEl = document.getElementById(`${symbol}-price`);
-        const changeEl = document.getElementById(`${symbol}-change`);
+      primaryError = error;
+    }
+
+    if (Object.keys(prices).length < cryptoTickers.length) {
+      try {
+        const response = await fetch(
+          'https://api.binance.com/api/v3/ticker/24hr?symbols=%5B%22BTCUSDT%22%2C%22ETHUSDT%22%2C%22SOLUSDT%22%5D',
+          { cache: 'no-store' }
+        );
+        if (!response.ok) throw new Error('Fallback cryptocurrency price request failed');
+        const payload = await response.json();
+
+        payload.forEach(({ symbol, lastPrice, priceChangePercent }) => {
+          const ticker = cryptoTickers.find(({ symbol: tickerSymbol }) => `${tickerSymbol.toUpperCase()}USDT` === symbol);
+          const price = Number(lastPrice);
+          const change = Number(priceChangePercent);
+          if (ticker && !prices[ticker.symbol] && Number.isFinite(price) && Number.isFinite(change)) {
+            prices[ticker.symbol] = { price, change };
+          }
+        });
+      } catch (fallbackError) {
+        console.error('Unable to load cryptocurrency prices from either provider:', {
+          primaryError,
+          fallbackError
+        });
+      }
+    } else if (primaryError) {
+      console.warn('CoinGecko was unavailable; cryptocurrency prices loaded from Binance:', primaryError);
+    }
+
+    cryptoTickers.forEach(({ symbol }) => {
+      const priceEl = document.getElementById(`${symbol}-price`);
+      const changeEl = document.getElementById(`${symbol}-change`);
+      const data = prices[symbol];
+
+      if (!data) {
         if (priceEl) priceEl.textContent = 'Unavailable';
         if (changeEl) changeEl.textContent = '--';
-      });
-      console.error('Unable to load cryptocurrency prices:', error);
-    }
+        return;
+      }
+
+      if (priceEl) {
+        priceEl.textContent = new Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: 'USD',
+          maximumFractionDigits: data.price < 1 ? 4 : data.price < 100 ? 2 : 0
+        }).format(data.price);
+      }
+      if (changeEl) {
+        changeEl.textContent = `${data.change > 0 ? '+' : ''}${data.change.toFixed(2)}%`;
+        changeEl.classList.toggle('is-positive', data.change >= 0);
+        changeEl.classList.toggle('is-negative', data.change < 0);
+      }
+    });
   };
 
   if (document.getElementById('btc-price')) {
