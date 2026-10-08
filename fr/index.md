@@ -11,7 +11,7 @@ lang: fr
 
 <div style="padding:48px 24px; max-width:800px;">
 <h2 style="color:#1a2b4c;">Construire des solutions durables</h2>
-<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company est une organisation pluridisciplinaire et axée sur la technologie, engagée à fournir des solutions fiables, innovantes et créatrices de valeur dans les domaines du géospatial, de l'ingénierie, de la construction et de la technologie. Nous combinons expertise professionnelle, technologies modernes et approches pratiques pour proposer des solutions répondant aux besoins évolutifs de nos clients et soutenant le développement durable.
+<p style="font-size:16px; line-height:1.7; color:#333;">SpamEDGE Company est une organisation pluridisciplinaire et axée sur la technologie, engagée à fournir des solutions fiables, innovantes et créatrices de valeur dans les domaines du géospatial, de la technologie architecturale et structurelle, de l'ingénierie, de la construction et de la technologie. Nous combinons expertise professionnelle, technologies modernes et approches pratiques pour proposer des solutions répondant aux besoins évolutifs de nos clients et soutenant le développement durable.
 
 Notre expertise repose sur la topographie et la géoinformatique, les SIG, la cartographie numérique, l'acquisition de données spatiales, le support en ingénierie, la construction et les solutions technologiques. En réunissant ces domaines, nous offrons des services intégrés qui aident nos clients à mieux planifier, prendre des décisions éclairées, améliorer leur efficacité et mener à bien leurs projets.
 

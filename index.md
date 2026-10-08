@@ -19,7 +19,7 @@ title: Home
     <p><strong>Surveying &amp; Geoinformatics → Geospatial Intelligence → Technology → Design → Engineering → Construction</strong></p>
 
     <h2>About SpamEDGE</h2>
-    <p>SpamEDGE Company is a technology-driven multidisciplinary company focused on Geospatial Intelligence, Digital Technology, Engineering, Construction, and Sustainable Development.</p>
+    <p>SpamEDGE Company is a technology-driven multidisciplinary company focused on Geospatial Intelligence, Architectural and Structural Technology, Digital Technology, Engineering, Construction, and Sustainable Development.</p>
 
     <p>Founded with a strong foundation in Surveying and Geoinformatics, SpamEDGE brings together spatial data, modern technology, design, and engineering to provide smarter solutions for the built environment and beyond.</p>
 
